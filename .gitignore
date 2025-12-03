@@ -11,6 +11,7 @@ __pycache__/
 
 # Virtual env
 .venv/
+.venv/*
 env/
 venv/
 
@@ -20,7 +21,7 @@ venv/
 # ==========================================
 #     POSTGRESQL
 # ==========================================
-# PostgreSQL data
+
 postgres/
 postgres/*
 
