@@ -1,0 +1,19 @@
+FROM apache/airflow:2.8.2-python3.11
+
+# Primeiro copia scripts como root
+USER root
+
+COPY scripts/create_admin.sh /opt/airflow/scripts/create_admin.sh
+RUN chmod +x /opt/airflow/scripts/create_admin.sh
+
+# Agora troca para o usuário airflow (OBRIGATÓRIO)
+USER airflow
+
+# Instalar dependências Python como usuário airflow
+RUN pip install --no-cache-dir \
+    hdfs \
+    pandas \
+    pyarrow \
+    fastparquet \
+    requests \
+    sqlalchemy

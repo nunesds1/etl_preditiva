@@ -1,0 +1,13 @@
+pandas
+sqlalchemy
+pyodbc
+psycopg2-binary
+python-dotenv
+pyarrow
+fastparquet
+hdfs
+scikit-learn
+joblib
+shap
+jupyterlab
+requests

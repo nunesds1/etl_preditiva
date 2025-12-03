@@ -1,0 +1,47 @@
+<configuration>
+
+  <!-- Diretórios -->
+  <property>
+    <name>dfs.namenode.name.dir</name>
+    <value>file:///opt/hadoop/data/nn</value>
+  </property>
+
+  <property>
+    <name>dfs.datanode.data.dir</name>
+    <value>file:///opt/hadoop/data/dn</value>
+  </property>
+
+  <property>
+    <name>dfs.replication</name>
+    <value>1</value>
+  </property>
+
+  <!-- Hostname correto do DataNode -->
+  <property>
+    <name>dfs.datanode.hostname</name>
+    <value>datanode</value>
+  </property>
+
+  <!-- WebHDFS do DataNode -->
+  <property>
+    <name>dfs.datanode.http.address</name>
+    <value>datanode:9864</value>
+  </property>
+
+  <property>
+    <name>dfs.client.use.datanode.hostname</name>
+    <value>true</value>
+  </property>
+
+  <!-- WebHDFS do NameNode -->
+  <property>
+    <name>dfs.namenode.http-address</name>
+    <value>namenode:9870</value>
+  </property>
+
+  <property>
+    <name>dfs.webhdfs.enabled</name>
+    <value>true</value>
+  </property>
+
+</configuration>
