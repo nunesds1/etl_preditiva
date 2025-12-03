@@ -22,9 +22,7 @@ Tudo containerizado via **Docker Compose**.
 
 ## 📐 Arquitetura Geral
 
-> 📌 *A imagem deve estar salva no diretório: `docs/arquitetura_pipeline_etl_preditivo.png`.*
-
-![Arquitetura](./docs/arquitetura_pipeline_etl_preditivo.png)
+![Arquitetura](./docs/arquitetura_pipeline_etl_preditivo_v2.png)
 
 ---
 
