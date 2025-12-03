@@ -1,0 +1,32 @@
+[2025-12-02T22:57:54.853+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_slices_csv.extract_slices manual__2025-12-02T22:57:53.849336+00:00 [queued]>
+[2025-12-02T22:57:54.858+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_slices_csv.extract_slices manual__2025-12-02T22:57:53.849336+00:00 [queued]>
+[2025-12-02T22:57:54.858+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 3
+[2025-12-02T22:57:54.864+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): extract_slices> on 2025-12-02 22:57:53.849336+00:00
+[2025-12-02T22:57:54.868+0000] {standard_task_runner.py:60} INFO - Started process 651 to run task
+[2025-12-02T22:57:54.870+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'extract_slices_csv', 'extract_slices', 'manual__2025-12-02T22:57:53.849336+00:00', '--job-id', '370', '--raw', '--subdir', 'DAGS_FOLDER/extract_slices_csv_dag.py', '--cfg-path', '/tmp/tmp3qs0l3ej']
+[2025-12-02T22:57:54.874+0000] {standard_task_runner.py:88} INFO - Job 370: Subtask extract_slices
+[2025-12-02T22:57:54.902+0000] {task_command.py:423} INFO - Running <TaskInstance: extract_slices_csv.extract_slices manual__2025-12-02T22:57:53.849336+00:00 [running]> on host 0ec15cef88e3
+[2025-12-02T22:57:54.948+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='etl' AIRFLOW_CTX_DAG_ID='extract_slices_csv' AIRFLOW_CTX_TASK_ID='extract_slices' AIRFLOW_CTX_EXECUTION_DATE='2025-12-02T22:57:53.849336+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-02T22:57:53.849336+00:00'
+[2025-12-02T22:57:54.949+0000] {logging_mixin.py:188} INFO - === Executando extração dos slices para CSV ===
+[2025-12-02T22:57:54.978+0000] {logging_mixin.py:188} INFO - 
+>> Recompra 90 dias
+[2025-12-02T22:57:54.983+0000] {logging_mixin.py:188} WARNING - /opt/***/scripts/extract_slices_to_csv.py:73 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2025-12-02T22:57:58.457+0000] {logging_mixin.py:188} INFO - [INFO] Linhas totais: 322,704
+[2025-12-02T22:57:58.684+0000] {logging_mixin.py:188} INFO - [OK] Salvo 122,356 linhas em ./data_slices_csv/recompra.csv
+[2025-12-02T22:57:58.685+0000] {logging_mixin.py:188} INFO - 
+>> Atrasos > 30 dias
+[2025-12-02T22:57:58.685+0000] {logging_mixin.py:188} WARNING - /opt/***/scripts/extract_slices_to_csv.py:91 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2025-12-02T22:58:04.874+0000] {logging_mixin.py:188} INFO - [INFO] Linhas totais: 988,345
+[2025-12-02T22:58:06.204+0000] {logging_mixin.py:188} INFO - [OK] Salvo 399,115 linhas em ./data_slices_csv/atrasos.csv
+[2025-12-02T22:58:06.205+0000] {logging_mixin.py:188} INFO - 
+>> Valor próximos 30 dias
+[2025-12-02T22:58:06.206+0000] {logging_mixin.py:188} WARNING - /opt/***/scripts/extract_slices_to_csv.py:110 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2025-12-02T22:58:08.654+0000] {logging_mixin.py:188} INFO - [INFO] Linhas totais: 18,231
+[2025-12-02T22:58:08.665+0000] {logging_mixin.py:188} INFO - [OK] Salvo 2,735 linhas em ./data_slices_csv/valor_30dias.csv
+[2025-12-02T22:58:08.668+0000] {logging_mixin.py:188} INFO - 
+✔ Extração concluída!
+[2025-12-02T22:58:08.668+0000] {logging_mixin.py:188} INFO - === Slice CSV gerado com sucesso ===
+[2025-12-02T22:58:08.668+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-12-02T22:58:08.677+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=extract_slices_csv, task_id=extract_slices, execution_date=20251202T225753, start_date=20251202T225754, end_date=20251202T225808
+[2025-12-02T22:58:08.736+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-12-02T22:58:08.748+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

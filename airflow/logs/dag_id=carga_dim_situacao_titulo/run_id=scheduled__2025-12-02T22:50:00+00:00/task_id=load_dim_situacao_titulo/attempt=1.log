@@ -1,0 +1,18 @@
+[2025-12-02T22:55:32.630+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: carga_dim_situacao_titulo.load_dim_situacao_titulo scheduled__2025-12-02T22:50:00+00:00 [queued]>
+[2025-12-02T22:55:32.659+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: carga_dim_situacao_titulo.load_dim_situacao_titulo scheduled__2025-12-02T22:50:00+00:00 [queued]>
+[2025-12-02T22:55:32.660+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 3
+[2025-12-02T22:55:32.725+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): load_dim_situacao_titulo> on 2025-12-02 22:50:00+00:00
+[2025-12-02T22:55:32.744+0000] {standard_task_runner.py:60} INFO - Started process 264 to run task
+[2025-12-02T22:55:32.766+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'carga_dim_situacao_titulo', 'load_dim_situacao_titulo', 'scheduled__2025-12-02T22:50:00+00:00', '--job-id', '345', '--raw', '--subdir', 'DAGS_FOLDER/carga_dim_situacao_titulo.py', '--cfg-path', '/tmp/tmpey0le2rz']
+[2025-12-02T22:55:32.774+0000] {standard_task_runner.py:88} INFO - Job 345: Subtask load_dim_situacao_titulo
+[2025-12-02T22:55:36.408+0000] {task_command.py:423} INFO - Running <TaskInstance: carga_dim_situacao_titulo.load_dim_situacao_titulo scheduled__2025-12-02T22:50:00+00:00 [running]> on host 0ec15cef88e3
+[2025-12-02T22:55:36.779+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='etl' AIRFLOW_CTX_DAG_ID='carga_dim_situacao_titulo' AIRFLOW_CTX_TASK_ID='load_dim_situacao_titulo' AIRFLOW_CTX_EXECUTION_DATE='2025-12-02T22:50:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-12-02T22:50:00+00:00'
+[2025-12-02T22:55:36.780+0000] {logging_mixin.py:188} INFO - 
+=== Iniciando carga da DimSituacaoTitulo ===
+[2025-12-02T22:55:39.328+0000] {logging_mixin.py:188} INFO - Último SituacaoTituloID carregado: 4
+[2025-12-02T22:55:39.640+0000] {logging_mixin.py:188} INFO - Encontrados 0 novos registros.
+[2025-12-02T22:55:39.642+0000] {logging_mixin.py:188} INFO - DimSituacaoTitulo - 0 registros inseridos com sucesso.
+[2025-12-02T22:55:39.643+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-12-02T22:55:39.662+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=carga_dim_situacao_titulo, task_id=load_dim_situacao_titulo, execution_date=20251202T225000, start_date=20251202T225532, end_date=20251202T225539
+[2025-12-02T22:55:39.751+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-12-02T22:55:39.517+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

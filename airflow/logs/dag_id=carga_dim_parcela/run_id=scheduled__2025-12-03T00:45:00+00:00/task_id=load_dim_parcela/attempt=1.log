@@ -1,0 +1,18 @@
+[2025-12-03T00:53:53.591+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: carga_dim_parcela.load_dim_parcela scheduled__2025-12-03T00:45:00+00:00 [queued]>
+[2025-12-03T00:53:53.595+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: carga_dim_parcela.load_dim_parcela scheduled__2025-12-03T00:45:00+00:00 [queued]>
+[2025-12-03T00:53:53.595+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 3
+[2025-12-03T00:53:53.603+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): load_dim_parcela> on 2025-12-03 00:45:00+00:00
+[2025-12-03T00:53:53.606+0000] {standard_task_runner.py:60} INFO - Started process 841 to run task
+[2025-12-03T00:53:53.608+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'carga_dim_parcela', 'load_dim_parcela', 'scheduled__2025-12-03T00:45:00+00:00', '--job-id', '533', '--raw', '--subdir', 'DAGS_FOLDER/carga_dim_parcela.py', '--cfg-path', '/tmp/tmpg632mlje']
+[2025-12-03T00:53:53.609+0000] {standard_task_runner.py:88} INFO - Job 533: Subtask load_dim_parcela
+[2025-12-03T00:53:53.751+0000] {task_command.py:423} INFO - Running <TaskInstance: carga_dim_parcela.load_dim_parcela scheduled__2025-12-03T00:45:00+00:00 [running]> on host 08128b82813d
+[2025-12-03T00:53:53.800+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='etl' AIRFLOW_CTX_DAG_ID='carga_dim_parcela' AIRFLOW_CTX_TASK_ID='load_dim_parcela' AIRFLOW_CTX_EXECUTION_DATE='2025-12-03T00:45:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-12-03T00:45:00+00:00'
+[2025-12-03T00:53:53.801+0000] {logging_mixin.py:188} INFO - 
+=== Iniciando carga da DimParcela ===
+[2025-12-03T00:53:54.861+0000] {logging_mixin.py:188} INFO - Último ParcelaID carregado: 987397
+[2025-12-03T00:53:55.589+0000] {logging_mixin.py:188} INFO - Encontrados 1333 novos registros de parcela.
+[2025-12-03T00:53:55.902+0000] {logging_mixin.py:188} INFO - DimParcela - 1333 registros inseridos com sucesso.
+[2025-12-03T00:53:55.902+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-12-03T00:53:55.907+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=carga_dim_parcela, task_id=load_dim_parcela, execution_date=20251203T004500, start_date=20251203T005353, end_date=20251203T005355
+[2025-12-03T00:53:55.947+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-12-03T00:53:56.055+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

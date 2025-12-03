@@ -1,0 +1,17 @@
+[2025-12-02T23:58:11.709+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_analytics_master.dim_nota_fiscal manual__2025-12-02T23:58:09.500050+00:00 [queued]>
+[2025-12-02T23:58:11.722+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_analytics_master.dim_nota_fiscal manual__2025-12-02T23:58:09.500050+00:00 [queued]>
+[2025-12-02T23:58:11.722+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2025-12-02T23:58:11.753+0000] {taskinstance.py:2214} INFO - Executing <Task(TriggerDagRunOperator): dim_nota_fiscal> on 2025-12-02 23:58:09.500050+00:00
+[2025-12-02T23:58:11.757+0000] {standard_task_runner.py:60} INFO - Started process 517 to run task
+[2025-12-02T23:58:11.762+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pipeline_analytics_master', 'dim_nota_fiscal', 'manual__2025-12-02T23:58:09.500050+00:00', '--job-id', '459', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_analytics_master.py', '--cfg-path', '/tmp/tmpw4lpz4xd']
+[2025-12-02T23:58:11.766+0000] {standard_task_runner.py:88} INFO - Job 459: Subtask dim_nota_fiscal
+[2025-12-02T23:58:11.828+0000] {task_command.py:423} INFO - Running <TaskInstance: pipeline_analytics_master.dim_nota_fiscal manual__2025-12-02T23:58:09.500050+00:00 [running]> on host 954fa7f5aadc
+[2025-12-02T23:58:12.264+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='etl' AIRFLOW_CTX_DAG_ID='pipeline_analytics_master' AIRFLOW_CTX_TASK_ID='dim_nota_fiscal' AIRFLOW_CTX_EXECUTION_DATE='2025-12-02T23:58:09.500050+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-02T23:58:09.500050+00:00'
+[2025-12-02T23:58:12.352+0000] {trigger_dagrun.py:210} INFO - Waiting for carga_dim_notafiscal on 2025-12-02 23:58:12.265846+00:00 to become allowed state ['success'] ...
+[2025-12-02T23:59:18.153+0000] {trigger_dagrun.py:210} INFO - Waiting for carga_dim_notafiscal on 2025-12-02 23:58:12.265846+00:00 to become allowed state ['success'] ...
+[2025-12-03T00:00:23.521+0000] {trigger_dagrun.py:210} INFO - Waiting for carga_dim_notafiscal on 2025-12-02 23:58:12.265846+00:00 to become allowed state ['success'] ...
+[2025-12-03T00:01:29.429+0000] {trigger_dagrun.py:210} INFO - Waiting for carga_dim_notafiscal on 2025-12-02 23:58:12.265846+00:00 to become allowed state ['success'] ...
+[2025-12-03T00:02:34.929+0000] {trigger_dagrun.py:223} INFO - carga_dim_notafiscal finished with allowed state success
+[2025-12-03T00:02:34.943+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=pipeline_analytics_master, task_id=dim_nota_fiscal, execution_date=20251202T235809, start_date=20251202T235811, end_date=20251203T000234
+[2025-12-03T00:02:35.325+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-12-03T00:02:36.090+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

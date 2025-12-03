@@ -1,0 +1,50 @@
+[2025-12-02T23:03:16.905+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: upload_slices_hdfs.upload_to_hdfs manual__2025-12-02T22:59:00.733122+00:00 [queued]>
+[2025-12-02T23:03:16.914+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: upload_slices_hdfs.upload_to_hdfs manual__2025-12-02T22:59:00.733122+00:00 [queued]>
+[2025-12-02T23:03:16.914+0000] {taskinstance.py:2193} INFO - Starting attempt 3 of 3
+[2025-12-02T23:03:16.925+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): upload_to_hdfs> on 2025-12-02 22:59:00.733122+00:00
+[2025-12-02T23:03:16.933+0000] {standard_task_runner.py:60} INFO - Started process 1496 to run task
+[2025-12-02T23:03:16.935+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'upload_slices_hdfs', 'upload_to_hdfs', 'manual__2025-12-02T22:59:00.733122+00:00', '--job-id', '381', '--raw', '--subdir', 'DAGS_FOLDER/upload_slices_hdfs_dag.py', '--cfg-path', '/tmp/tmpvd4c_ism']
+[2025-12-02T23:03:16.938+0000] {standard_task_runner.py:88} INFO - Job 381: Subtask upload_to_hdfs
+[2025-12-02T23:03:17.021+0000] {task_command.py:423} INFO - Running <TaskInstance: upload_slices_hdfs.upload_to_hdfs manual__2025-12-02T22:59:00.733122+00:00 [running]> on host 0ec15cef88e3
+[2025-12-02T23:03:17.158+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='etl' AIRFLOW_CTX_DAG_ID='upload_slices_hdfs' AIRFLOW_CTX_TASK_ID='upload_to_hdfs' AIRFLOW_CTX_EXECUTION_DATE='2025-12-02T22:59:00.733122+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-02T22:59:00.733122+00:00'
+[2025-12-02T23:03:17.160+0000] {logging_mixin.py:188} INFO - === Enviando slices para o HDFS em formato Parquet ===
+[2025-12-02T23:03:17.160+0000] {logging_mixin.py:188} INFO - 🔌 Conectando ao HDFS...
+[2025-12-02T23:03:17.162+0000] {logging_mixin.py:188} INFO - >> Rodando em Docker — usando namenode:9870
+[2025-12-02T23:03:17.163+0000] {client.py:192} INFO - Instantiated <InsecureClient(url='http://hadoop-namenode:9870')>.
+[2025-12-02T23:03:18.188+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/atrasos/ano=1970/mes=01'.
+[2025-12-02T23:03:19.998+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/upload_slices_hdfs_dag.py", line 36, in upload_to_hdfs
+    run_upload_hdfs()
+  File "/opt/airflow/scripts/load_csv_to_hdfs.py", line 92, in main
+    load_atrasos(client)
+  File "/opt/airflow/scripts/load_csv_to_hdfs.py", line 75, in load_atrasos
+    write_partitioned(df, "/datalake/analytics/atrasos", "DataVencimentoKey", client)
+  File "/opt/airflow/scripts/load_csv_to_hdfs.py", line 48, in write_partitioned
+    client.makedirs(dir_path)
+  File "/home/airflow/.local/lib/python3.11/site-packages/hdfs/client.py", line 1029, in makedirs
+    self._mkdirs(hdfs_path, permission=permission)
+  File "/home/airflow/.local/lib/python3.11/site-packages/hdfs/client.py", line 118, in api_handler
+    raise err
+hdfs.util.HdfsError: Cannot create directory /datalake/analytics/atrasos/ano=1970/mes=01. Name node is in safe mode.
+The reported blocks 72 has reached the threshold 0.9990 of total blocks 72. The minimum number of live datanodes is not required. In safe mode extension. Safe mode will be turned off automatically in 7 seconds. NamenodeHostName:namenode
+[2025-12-02T23:03:20.008+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=upload_slices_hdfs, task_id=upload_to_hdfs, execution_date=20251202T225900, start_date=20251202T230316, end_date=20251202T230320
+[2025-12-02T23:03:20.023+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 381 for task upload_to_hdfs (Cannot create directory /datalake/analytics/atrasos/ano=1970/mes=01. Name node is in safe mode.
+The reported blocks 72 has reached the threshold 0.9990 of total blocks 72. The minimum number of live datanodes is not required. In safe mode extension. Safe mode will be turned off automatically in 7 seconds. NamenodeHostName:namenode; 1496)
+[2025-12-02T23:03:20.043+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-12-02T23:03:20.061+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

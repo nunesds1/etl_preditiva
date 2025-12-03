@@ -1,0 +1,28 @@
+[2025-12-02T22:55:33.060+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: carga_fato_recebimentos.load_fato_recebimentos scheduled__2025-12-01T00:00:00+00:00 [queued]>
+[2025-12-02T22:55:33.199+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: carga_fato_recebimentos.load_fato_recebimentos scheduled__2025-12-01T00:00:00+00:00 [queued]>
+[2025-12-02T22:55:33.210+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 3
+[2025-12-02T22:55:33.350+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): load_fato_recebimentos> on 2025-12-01 00:00:00+00:00
+[2025-12-02T22:55:33.392+0000] {standard_task_runner.py:60} INFO - Started process 277 to run task
+[2025-12-02T22:55:33.414+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'carga_fato_recebimentos', 'load_fato_recebimentos', 'scheduled__2025-12-01T00:00:00+00:00', '--job-id', '343', '--raw', '--subdir', 'DAGS_FOLDER/carga_fato_recebimentos.py', '--cfg-path', '/tmp/tmppchi8njk']
+[2025-12-02T22:55:33.435+0000] {standard_task_runner.py:88} INFO - Job 343: Subtask load_fato_recebimentos
+[2025-12-02T22:55:36.403+0000] {task_command.py:423} INFO - Running <TaskInstance: carga_fato_recebimentos.load_fato_recebimentos scheduled__2025-12-01T00:00:00+00:00 [running]> on host 0ec15cef88e3
+[2025-12-02T22:55:36.704+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='etl' AIRFLOW_CTX_DAG_ID='carga_fato_recebimentos' AIRFLOW_CTX_TASK_ID='load_fato_recebimentos' AIRFLOW_CTX_EXECUTION_DATE='2025-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-12-01T00:00:00+00:00'
+[2025-12-02T22:55:36.706+0000] {logging_mixin.py:188} INFO - 
+=== Iniciando carga da FatoRecebimentos ===
+[2025-12-02T22:55:39.335+0000] {logging_mixin.py:188} INFO - Último RecebimentoID carregado: 987397
+[2025-12-02T22:55:42.489+0000] {logging_mixin.py:188} INFO - Encontrados 1333 novos títulos a receber.
+[2025-12-02T22:55:46.347+0000] {logging_mixin.py:188} INFO - [WARN] ClienteID 2275 não encontrado. Pulando.
+[2025-12-02T22:55:46.349+0000] {logging_mixin.py:188} INFO - [WARN] ClienteID 2275 não encontrado. Pulando.
+[2025-12-02T22:55:46.350+0000] {logging_mixin.py:188} INFO - [WARN] ClienteID 2275 não encontrado. Pulando.
+[2025-12-02T22:55:46.352+0000] {logging_mixin.py:188} INFO - [WARN] ClienteID 2275 não encontrado. Pulando.
+[2025-12-02T22:55:46.353+0000] {logging_mixin.py:188} INFO - [WARN] ClienteID 2275 não encontrado. Pulando.
+[2025-12-02T22:55:46.355+0000] {logging_mixin.py:188} INFO - [WARN] ClienteID 2275 não encontrado. Pulando.
+[2025-12-02T22:55:46.356+0000] {logging_mixin.py:188} INFO - [WARN] ClienteID 2275 não encontrado. Pulando.
+[2025-12-02T22:55:46.358+0000] {logging_mixin.py:188} INFO - [WARN] ClienteID 2275 não encontrado. Pulando.
+[2025-12-02T22:55:46.360+0000] {logging_mixin.py:188} INFO - [WARN] ClienteID 2275 não encontrado. Pulando.
+[2025-12-02T22:55:46.361+0000] {logging_mixin.py:188} INFO - [WARN] ClienteID 2275 não encontrado. Pulando.
+[2025-12-02T22:55:50.718+0000] {logging_mixin.py:188} INFO - FatoRecebimentos - 1323 registros inseridos com sucesso.
+[2025-12-02T22:55:50.719+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-12-02T22:55:50.729+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=carga_fato_recebimentos, task_id=load_fato_recebimentos, execution_date=20251201T000000, start_date=20251202T225533, end_date=20251202T225550
+[2025-12-02T22:55:50.753+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-12-02T22:55:50.766+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

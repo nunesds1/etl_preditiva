@@ -1,0 +1,802 @@
+[2025-12-02T22:55:29.970+0000] {processor.py:161} INFO - Started process (PID=185) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T22:55:29.970+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T22:55:29.971+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:55:29.971+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T22:55:29.990+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T22:55:30.006+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:55:30.006+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T22:55:30.032+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:55:30.032+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 22:50:00+00:00, run_after=2025-12-02 22:55:00+00:00
+[2025-12-02T22:55:30.055+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.090 seconds
+[2025-12-02T22:56:01.762+0000] {processor.py:161} INFO - Started process (PID=325) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T22:56:01.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T22:56:01.766+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:56:01.766+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T22:56:01.803+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T22:56:02.209+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:56:02.208+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T22:56:02.238+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:56:02.238+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 22:55:00+00:00, run_after=2025-12-02 23:00:00+00:00
+[2025-12-02T22:56:02.271+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.516 seconds
+[2025-12-02T22:56:32.776+0000] {processor.py:161} INFO - Started process (PID=409) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T22:56:32.777+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T22:56:32.778+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:56:32.778+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T22:56:32.791+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T22:56:32.940+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:56:32.940+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T22:56:32.958+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:56:32.958+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 22:55:00+00:00, run_after=2025-12-02 23:00:00+00:00
+[2025-12-02T22:56:32.973+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.200 seconds
+[2025-12-02T22:57:04.600+0000] {processor.py:161} INFO - Started process (PID=503) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T22:57:04.602+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T22:57:04.604+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:57:04.603+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T22:57:04.628+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T22:57:04.663+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:57:04.663+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T22:57:04.703+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:57:04.703+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 22:55:00+00:00, run_after=2025-12-02 23:00:00+00:00
+[2025-12-02T22:57:04.735+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.141 seconds
+[2025-12-02T22:57:35.655+0000] {processor.py:161} INFO - Started process (PID=585) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T22:57:35.657+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T22:57:35.658+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:57:35.658+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T22:57:35.672+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T22:57:35.701+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:57:35.700+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T22:57:35.721+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:57:35.721+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 22:55:00+00:00, run_after=2025-12-02 23:00:00+00:00
+[2025-12-02T22:57:35.737+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.085 seconds
+[2025-12-02T22:58:06.204+0000] {processor.py:161} INFO - Started process (PID=672) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T22:58:06.205+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T22:58:06.206+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:58:06.205+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T22:58:06.228+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T22:58:06.262+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:58:06.262+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T22:58:06.288+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:58:06.287+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 22:55:00+00:00, run_after=2025-12-02 23:00:00+00:00
+[2025-12-02T22:58:06.309+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.109 seconds
+[2025-12-02T22:58:36.951+0000] {processor.py:161} INFO - Started process (PID=754) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T22:58:36.952+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T22:58:36.953+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:58:36.952+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T22:58:36.964+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T22:58:36.982+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:58:36.982+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T22:58:37.000+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:58:37.000+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 22:55:00+00:00, run_after=2025-12-02 23:00:00+00:00
+[2025-12-02T22:58:37.015+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.066 seconds
+[2025-12-02T22:59:07.381+0000] {processor.py:161} INFO - Started process (PID=841) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T22:59:07.382+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T22:59:07.384+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:59:07.383+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T22:59:07.398+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T22:59:07.418+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:59:07.418+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T22:59:07.437+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:59:07.437+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 22:55:00+00:00, run_after=2025-12-02 23:00:00+00:00
+[2025-12-02T22:59:07.452+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.074 seconds
+[2025-12-02T22:59:37.771+0000] {processor.py:161} INFO - Started process (PID=923) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T22:59:37.772+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T22:59:37.772+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:59:37.772+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T22:59:37.783+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T22:59:37.798+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:59:37.798+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T22:59:37.813+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:59:37.813+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 22:55:00+00:00, run_after=2025-12-02 23:00:00+00:00
+[2025-12-02T22:59:37.828+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.059 seconds
+[2025-12-02T23:00:08.151+0000] {processor.py:161} INFO - Started process (PID=1019) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:00:08.154+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:00:08.155+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:00:08.154+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:00:08.177+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:00:08.196+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:00:08.196+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:00:08.216+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:00:08.215+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:00:00+00:00, run_after=2025-12-02 23:05:00+00:00
+[2025-12-02T23:00:08.233+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.086 seconds
+[2025-12-02T23:00:38.573+0000] {processor.py:161} INFO - Started process (PID=1101) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:00:38.573+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:00:38.574+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:00:38.574+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:00:38.584+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:00:38.603+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:00:38.603+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:00:38.621+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:00:38.620+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:00:00+00:00, run_after=2025-12-02 23:05:00+00:00
+[2025-12-02T23:00:38.637+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.066 seconds
+[2025-12-02T23:01:08.915+0000] {processor.py:161} INFO - Started process (PID=1186) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:01:08.918+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:01:08.920+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:01:08.919+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:01:08.944+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:01:08.967+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:01:08.967+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:01:08.990+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:01:08.990+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:00:00+00:00, run_after=2025-12-02 23:05:00+00:00
+[2025-12-02T23:01:09.007+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.099 seconds
+[2025-12-02T23:01:39.226+0000] {processor.py:161} INFO - Started process (PID=1266) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:01:39.229+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:01:39.231+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:01:39.230+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:01:39.259+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:01:39.284+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:01:39.284+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:01:39.317+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:01:39.317+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:00:00+00:00, run_after=2025-12-02 23:05:00+00:00
+[2025-12-02T23:01:39.344+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.123 seconds
+[2025-12-02T23:02:11.887+0000] {processor.py:161} INFO - Started process (PID=1348) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:02:11.889+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:02:11.890+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:02:11.890+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:02:11.904+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:02:11.921+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:02:11.921+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:02:11.940+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:02:11.940+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:00:00+00:00, run_after=2025-12-02 23:05:00+00:00
+[2025-12-02T23:02:11.962+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.077 seconds
+[2025-12-02T23:02:44.901+0000] {processor.py:161} INFO - Started process (PID=1430) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:02:44.903+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:02:44.904+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:02:44.903+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:02:44.923+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:02:44.944+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:02:44.944+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:02:44.964+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:02:44.964+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:00:00+00:00, run_after=2025-12-02 23:05:00+00:00
+[2025-12-02T23:02:44.985+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.086 seconds
+[2025-12-02T23:03:17.951+0000] {processor.py:161} INFO - Started process (PID=1515) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:03:17.953+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:03:17.954+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:03:17.954+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:03:17.973+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:03:17.998+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:03:17.998+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:03:18.028+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:03:18.027+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:00:00+00:00, run_after=2025-12-02 23:05:00+00:00
+[2025-12-02T23:03:18.051+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.105 seconds
+[2025-12-02T23:03:50.489+0000] {processor.py:161} INFO - Started process (PID=1599) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:03:50.490+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:03:50.491+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:03:50.491+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:03:50.502+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:03:50.516+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:03:50.516+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:03:50.530+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:03:50.530+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:00:00+00:00, run_after=2025-12-02 23:05:00+00:00
+[2025-12-02T23:03:50.542+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.056 seconds
+[2025-12-02T23:04:23.203+0000] {processor.py:161} INFO - Started process (PID=1679) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:04:23.204+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:04:23.204+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:04:23.204+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:04:23.222+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:04:23.238+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:04:23.238+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:04:23.254+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:04:23.254+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:00:00+00:00, run_after=2025-12-02 23:05:00+00:00
+[2025-12-02T23:04:23.266+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.066 seconds
+[2025-12-02T23:04:55.704+0000] {processor.py:161} INFO - Started process (PID=1761) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:04:55.706+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:04:55.706+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:04:55.706+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:04:55.717+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:04:55.731+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:04:55.731+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:04:55.745+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:04:55.745+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:00:00+00:00, run_after=2025-12-02 23:05:00+00:00
+[2025-12-02T23:04:55.757+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.055 seconds
+[2025-12-02T23:05:28.405+0000] {processor.py:161} INFO - Started process (PID=1852) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:05:28.406+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:05:28.407+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:05:28.407+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:05:28.424+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:05:28.440+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:05:28.440+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:05:28.457+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:05:28.457+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:05:00+00:00, run_after=2025-12-02 23:10:00+00:00
+[2025-12-02T23:05:28.470+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.067 seconds
+[2025-12-02T23:06:00.362+0000] {processor.py:161} INFO - Started process (PID=1936) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:06:00.363+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:06:00.364+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:06:00.364+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:06:00.378+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:06:00.392+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:06:00.392+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:06:00.407+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:06:00.407+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:05:00+00:00, run_after=2025-12-02 23:10:00+00:00
+[2025-12-02T23:06:00.421+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.061 seconds
+[2025-12-02T23:06:33.034+0000] {processor.py:161} INFO - Started process (PID=2019) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:06:33.036+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:06:33.036+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:06:33.036+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:06:33.048+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:06:33.064+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:06:33.064+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:06:33.080+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:06:33.080+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:05:00+00:00, run_after=2025-12-02 23:10:00+00:00
+[2025-12-02T23:06:33.096+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.064 seconds
+[2025-12-02T23:07:06.510+0000] {processor.py:161} INFO - Started process (PID=2108) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:07:06.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:07:06.511+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:07:06.511+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:07:06.522+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:07:06.537+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:07:06.537+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:07:06.553+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:07:06.553+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:05:00+00:00, run_after=2025-12-02 23:10:00+00:00
+[2025-12-02T23:07:06.566+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.058 seconds
+[2025-12-02T23:07:38.353+0000] {processor.py:161} INFO - Started process (PID=2190) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:07:38.353+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:07:38.354+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:07:38.354+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:07:38.366+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:07:38.382+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:07:38.382+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:07:38.396+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:07:38.396+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:05:00+00:00, run_after=2025-12-02 23:10:00+00:00
+[2025-12-02T23:07:38.411+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.061 seconds
+[2025-12-02T23:08:11.068+0000] {processor.py:161} INFO - Started process (PID=2272) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:08:11.068+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:08:11.069+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:08:11.069+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:08:11.079+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:08:11.093+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:08:11.093+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:08:11.106+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:08:11.106+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:05:00+00:00, run_after=2025-12-02 23:10:00+00:00
+[2025-12-02T23:08:11.118+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.053 seconds
+[2025-12-02T23:08:44.756+0000] {processor.py:161} INFO - Started process (PID=2354) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:08:44.758+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:08:44.759+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:08:44.758+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:08:44.777+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:08:44.797+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:08:44.796+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:08:44.816+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:08:44.816+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:05:00+00:00, run_after=2025-12-02 23:10:00+00:00
+[2025-12-02T23:08:44.837+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.083 seconds
+[2025-12-02T23:09:16.731+0000] {processor.py:161} INFO - Started process (PID=2436) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:09:16.732+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:09:16.732+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:09:16.732+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:09:16.744+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:09:16.763+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:09:16.763+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:09:16.780+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:09:16.780+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:05:00+00:00, run_after=2025-12-02 23:10:00+00:00
+[2025-12-02T23:09:16.797+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.069 seconds
+[2025-12-02T23:09:49.677+0000] {processor.py:161} INFO - Started process (PID=2520) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:09:49.678+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:09:49.678+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:09:49.678+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:09:49.694+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:09:49.711+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:09:49.711+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:09:49.728+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:09:49.727+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:05:00+00:00, run_after=2025-12-02 23:10:00+00:00
+[2025-12-02T23:09:49.743+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.069 seconds
+[2025-12-02T23:10:22.739+0000] {processor.py:161} INFO - Started process (PID=2614) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:10:22.741+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:10:22.741+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:10:22.741+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:10:22.754+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:10:22.770+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:10:22.770+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:10:22.792+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:10:22.792+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:10:00+00:00, run_after=2025-12-02 23:15:00+00:00
+[2025-12-02T23:10:22.808+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.071 seconds
+[2025-12-02T23:10:54.754+0000] {processor.py:161} INFO - Started process (PID=2696) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:10:54.754+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:10:54.755+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:10:54.755+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:10:54.767+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:10:54.784+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:10:54.784+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:10:54.801+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:10:54.800+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:10:00+00:00, run_after=2025-12-02 23:15:00+00:00
+[2025-12-02T23:10:54.814+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.063 seconds
+[2025-12-02T23:11:28.461+0000] {processor.py:161} INFO - Started process (PID=2778) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:11:28.462+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:11:28.464+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:11:28.463+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:11:28.482+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:11:28.506+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:11:28.505+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:11:28.522+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:11:28.522+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:10:00+00:00, run_after=2025-12-02 23:15:00+00:00
+[2025-12-02T23:11:28.535+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.078 seconds
+[2025-12-02T23:12:19.323+0000] {processor.py:161} INFO - Started process (PID=186) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:12:19.325+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:12:19.326+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:12:19.326+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:12:19.352+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:12:19.372+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:12:19.372+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:12:19.403+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:12:19.403+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:10:00+00:00, run_after=2025-12-02 23:15:00+00:00
+[2025-12-02T23:12:19.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.109 seconds
+[2025-12-02T23:12:50.369+0000] {processor.py:161} INFO - Started process (PID=268) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:12:50.371+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:12:50.372+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:12:50.372+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:12:50.386+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:12:50.566+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:12:50.566+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:12:50.582+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:12:50.582+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:10:00+00:00, run_after=2025-12-02 23:15:00+00:00
+[2025-12-02T23:12:50.598+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.232 seconds
+[2025-12-02T23:13:21.333+0000] {processor.py:161} INFO - Started process (PID=350) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:13:21.335+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:13:21.336+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:13:21.335+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:13:21.352+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:13:21.369+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:13:21.369+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:13:21.497+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:13:21.496+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:10:00+00:00, run_after=2025-12-02 23:15:00+00:00
+[2025-12-02T23:13:21.511+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.180 seconds
+[2025-12-02T23:13:53.763+0000] {processor.py:161} INFO - Started process (PID=437) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:13:53.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:13:53.767+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:13:53.766+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:13:53.824+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:13:53.893+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:13:53.892+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:13:53.963+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:13:53.963+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:10:00+00:00, run_after=2025-12-02 23:15:00+00:00
+[2025-12-02T23:13:54.009+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.255 seconds
+[2025-12-02T23:14:24.905+0000] {processor.py:161} INFO - Started process (PID=519) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:14:24.915+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:14:24.915+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:14:24.915+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:14:24.930+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:14:24.948+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:14:24.948+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:14:24.967+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:14:24.967+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:10:00+00:00, run_after=2025-12-02 23:15:00+00:00
+[2025-12-02T23:14:24.984+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.081 seconds
+[2025-12-02T23:14:55.477+0000] {processor.py:161} INFO - Started process (PID=601) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:14:55.478+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:14:55.479+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:14:55.479+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:14:55.493+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:14:55.512+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:14:55.511+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:14:55.529+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:14:55.529+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:10:00+00:00, run_after=2025-12-02 23:15:00+00:00
+[2025-12-02T23:14:55.545+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.070 seconds
+[2025-12-02T23:15:26.196+0000] {processor.py:161} INFO - Started process (PID=696) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:15:26.198+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:15:26.199+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:15:26.199+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:15:26.211+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:15:26.229+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:15:26.229+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:15:26.246+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:15:26.246+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:15:00+00:00, run_after=2025-12-02 23:20:00+00:00
+[2025-12-02T23:15:26.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.069 seconds
+[2025-12-02T23:15:56.959+0000] {processor.py:161} INFO - Started process (PID=778) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:15:56.963+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:15:56.964+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:15:56.964+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:15:56.984+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:15:57.001+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:15:57.001+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:15:57.017+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:15:57.017+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:15:00+00:00, run_after=2025-12-02 23:20:00+00:00
+[2025-12-02T23:15:57.032+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.075 seconds
+[2025-12-02T23:16:27.453+0000] {processor.py:161} INFO - Started process (PID=860) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:16:27.455+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:16:27.456+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:16:27.455+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:16:27.470+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:16:27.495+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:16:27.495+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:16:27.516+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:16:27.516+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:15:00+00:00, run_after=2025-12-02 23:20:00+00:00
+[2025-12-02T23:16:27.532+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.082 seconds
+[2025-12-02T23:16:57.961+0000] {processor.py:161} INFO - Started process (PID=942) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:16:57.963+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:16:57.964+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:16:57.963+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:16:57.975+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:16:57.989+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:16:57.989+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:16:58.005+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:16:58.005+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:15:00+00:00, run_after=2025-12-02 23:20:00+00:00
+[2025-12-02T23:16:58.021+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.062 seconds
+[2025-12-02T23:17:28.751+0000] {processor.py:161} INFO - Started process (PID=1027) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:17:28.753+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:17:28.753+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:17:28.753+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:17:28.765+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:17:28.785+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:17:28.784+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:17:28.799+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:17:28.799+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:15:00+00:00, run_after=2025-12-02 23:20:00+00:00
+[2025-12-02T23:17:28.812+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.063 seconds
+[2025-12-02T23:18:00.455+0000] {processor.py:161} INFO - Started process (PID=1107) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:18:00.456+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:18:00.457+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:18:00.457+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:18:00.469+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:18:00.485+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:18:00.485+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:18:00.502+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:18:00.502+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:15:00+00:00, run_after=2025-12-02 23:20:00+00:00
+[2025-12-02T23:18:00.516+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.063 seconds
+[2025-12-02T23:18:33.322+0000] {processor.py:161} INFO - Started process (PID=1191) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:18:33.324+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:18:33.324+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:18:33.324+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:18:33.335+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:18:33.351+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:18:33.351+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:18:33.366+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:18:33.366+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:15:00+00:00, run_after=2025-12-02 23:20:00+00:00
+[2025-12-02T23:18:33.379+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.060 seconds
+[2025-12-02T23:19:06.082+0000] {processor.py:161} INFO - Started process (PID=1273) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:19:06.083+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:19:06.084+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:19:06.083+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:19:06.095+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:19:06.110+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:19:06.110+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:19:06.125+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:19:06.125+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:15:00+00:00, run_after=2025-12-02 23:20:00+00:00
+[2025-12-02T23:19:06.139+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.059 seconds
+[2025-12-02T23:19:38.749+0000] {processor.py:161} INFO - Started process (PID=1353) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:19:38.750+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:19:38.751+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:19:38.750+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:19:38.767+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:19:38.783+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:19:38.783+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:19:38.798+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:19:38.797+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:15:00+00:00, run_after=2025-12-02 23:20:00+00:00
+[2025-12-02T23:19:38.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.064 seconds
+[2025-12-02T23:20:11.508+0000] {processor.py:161} INFO - Started process (PID=1449) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:20:11.509+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:20:11.510+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:20:11.509+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:20:11.521+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:20:11.535+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:20:11.535+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:20:11.551+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:20:11.551+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:20:00+00:00, run_after=2025-12-02 23:25:00+00:00
+[2025-12-02T23:20:11.562+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.057 seconds
+[2025-12-02T23:20:44.442+0000] {processor.py:161} INFO - Started process (PID=1533) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:20:44.442+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:20:44.443+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:20:44.443+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:20:44.456+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:20:44.473+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:20:44.473+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:20:44.490+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:20:44.490+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:20:00+00:00, run_after=2025-12-02 23:25:00+00:00
+[2025-12-02T23:20:44.505+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.066 seconds
+[2025-12-02T23:21:17.197+0000] {processor.py:161} INFO - Started process (PID=1613) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:21:17.199+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:21:17.199+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:21:17.199+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:21:17.214+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:21:17.235+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:21:17.235+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:21:17.258+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:21:17.258+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:20:00+00:00, run_after=2025-12-02 23:25:00+00:00
+[2025-12-02T23:21:17.274+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.080 seconds
+[2025-12-02T23:21:50.152+0000] {processor.py:161} INFO - Started process (PID=1697) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:21:50.153+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:21:50.153+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:21:50.153+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:21:50.167+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:21:50.185+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:21:50.185+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:21:50.201+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:21:50.201+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:20:00+00:00, run_after=2025-12-02 23:25:00+00:00
+[2025-12-02T23:21:50.219+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.069 seconds
+[2025-12-02T23:22:22.953+0000] {processor.py:161} INFO - Started process (PID=1777) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:22:22.955+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:22:22.955+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:22:22.955+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:22:22.970+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:22:22.985+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:22:22.985+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:22:22.999+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:22:22.999+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:20:00+00:00, run_after=2025-12-02 23:25:00+00:00
+[2025-12-02T23:22:23.017+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.067 seconds
+[2025-12-02T23:22:55.843+0000] {processor.py:161} INFO - Started process (PID=1861) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:22:55.844+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:22:55.845+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:22:55.844+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:22:55.861+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:22:55.881+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:22:55.881+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:22:55.903+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:22:55.903+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:20:00+00:00, run_after=2025-12-02 23:25:00+00:00
+[2025-12-02T23:22:55.922+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.083 seconds
+[2025-12-02T23:23:28.632+0000] {processor.py:161} INFO - Started process (PID=1941) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:23:28.632+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:23:28.633+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:23:28.633+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:23:28.643+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:23:28.657+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:23:28.657+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:23:28.672+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:23:28.672+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:20:00+00:00, run_after=2025-12-02 23:25:00+00:00
+[2025-12-02T23:23:28.684+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.055 seconds
+[2025-12-02T23:24:01.348+0000] {processor.py:161} INFO - Started process (PID=2025) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:24:01.348+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:24:01.349+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:24:01.348+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:24:01.360+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:24:01.375+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:24:01.374+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:24:01.389+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:24:01.389+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:20:00+00:00, run_after=2025-12-02 23:25:00+00:00
+[2025-12-02T23:24:01.402+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.057 seconds
+[2025-12-02T23:24:33.215+0000] {processor.py:161} INFO - Started process (PID=2112) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:24:33.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:24:33.216+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:24:33.216+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:24:33.227+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:24:33.245+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:24:33.245+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:24:33.261+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:24:33.261+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:20:00+00:00, run_after=2025-12-02 23:25:00+00:00
+[2025-12-02T23:24:33.276+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.064 seconds
+[2025-12-02T23:25:06.054+0000] {processor.py:161} INFO - Started process (PID=2205) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:25:06.055+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:25:06.055+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:25:06.055+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:25:06.066+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:25:06.081+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:25:06.081+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:25:06.105+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.053 seconds
+[2025-12-02T23:25:38.802+0000] {processor.py:161} INFO - Started process (PID=2287) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:25:38.803+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:25:38.804+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:25:38.804+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:25:38.821+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:25:38.839+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:25:38.839+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:25:38.858+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:25:38.857+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:25:00+00:00, run_after=2025-12-02 23:30:00+00:00
+[2025-12-02T23:25:38.874+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.075 seconds
+[2025-12-02T23:26:11.597+0000] {processor.py:161} INFO - Started process (PID=2371) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:26:11.598+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:26:11.598+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:26:11.598+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:26:11.609+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:26:11.624+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:26:11.624+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:26:11.638+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:26:11.638+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:25:00+00:00, run_after=2025-12-02 23:30:00+00:00
+[2025-12-02T23:26:11.648+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.054 seconds
+[2025-12-02T23:26:44.214+0000] {processor.py:161} INFO - Started process (PID=2451) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:26:44.215+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:26:44.216+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:26:44.215+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:26:44.226+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:26:44.246+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:26:44.246+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:26:44.264+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:26:44.264+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:25:00+00:00, run_after=2025-12-02 23:30:00+00:00
+[2025-12-02T23:26:44.276+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.063 seconds
+[2025-12-02T23:27:17.009+0000] {processor.py:161} INFO - Started process (PID=2533) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:27:17.010+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:27:17.010+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:27:17.010+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:27:17.021+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:27:17.034+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:27:17.034+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:27:17.048+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:27:17.048+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:25:00+00:00, run_after=2025-12-02 23:30:00+00:00
+[2025-12-02T23:27:17.059+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.052 seconds
+[2025-12-02T23:27:49.687+0000] {processor.py:161} INFO - Started process (PID=2615) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:27:49.688+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:27:49.688+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:27:49.688+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:27:49.699+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:27:49.714+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:27:49.714+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:27:49.731+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:27:49.731+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:25:00+00:00, run_after=2025-12-02 23:30:00+00:00
+[2025-12-02T23:27:49.742+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.058 seconds
+[2025-12-02T23:28:22.422+0000] {processor.py:161} INFO - Started process (PID=2697) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:28:22.423+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:28:22.423+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:28:22.423+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:28:22.435+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:28:22.450+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:28:22.450+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:28:22.463+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:28:22.463+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:25:00+00:00, run_after=2025-12-02 23:30:00+00:00
+[2025-12-02T23:28:22.474+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.054 seconds
+[2025-12-02T23:28:55.051+0000] {processor.py:161} INFO - Started process (PID=2779) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:28:55.053+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:28:55.053+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:28:55.053+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:28:55.064+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:28:55.079+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:28:55.079+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:28:55.094+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:28:55.094+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:25:00+00:00, run_after=2025-12-02 23:30:00+00:00
+[2025-12-02T23:28:55.107+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.058 seconds
+[2025-12-02T23:29:28.695+0000] {processor.py:161} INFO - Started process (PID=2861) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:29:28.696+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:29:28.697+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:29:28.696+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:29:28.710+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:29:28.728+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:29:28.728+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:29:28.744+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:29:28.744+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:25:00+00:00, run_after=2025-12-02 23:30:00+00:00
+[2025-12-02T23:29:28.759+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.068 seconds
+[2025-12-02T23:30:00.561+0000] {processor.py:161} INFO - Started process (PID=2943) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:30:00.562+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:30:00.563+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:30:00.563+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:30:00.573+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:30:00.586+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:30:00.586+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:30:00.602+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:30:00.601+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:25:00+00:00, run_after=2025-12-02 23:30:00+00:00
+[2025-12-02T23:30:00.616+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.057 seconds
+[2025-12-02T23:30:33.333+0000] {processor.py:161} INFO - Started process (PID=3039) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:30:33.334+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:30:33.335+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:30:33.335+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:30:33.346+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:30:33.362+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:30:33.362+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:30:33.376+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:30:33.376+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:30:00+00:00, run_after=2025-12-02 23:35:00+00:00
+[2025-12-02T23:30:33.390+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.059 seconds
+[2025-12-02T23:31:06.015+0000] {processor.py:161} INFO - Started process (PID=3121) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:31:06.016+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:31:06.016+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:31:06.016+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:31:06.031+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:31:06.047+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:31:06.047+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:31:06.063+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:31:06.063+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:30:00+00:00, run_after=2025-12-02 23:35:00+00:00
+[2025-12-02T23:31:06.078+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.065 seconds
+[2025-12-02T23:31:38.663+0000] {processor.py:161} INFO - Started process (PID=3205) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:31:38.664+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:31:38.665+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:31:38.665+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:31:38.681+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:31:38.700+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:31:38.700+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:31:38.718+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:31:38.718+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:30:00+00:00, run_after=2025-12-02 23:35:00+00:00
+[2025-12-02T23:31:38.733+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.074 seconds
+[2025-12-02T23:32:12.332+0000] {processor.py:161} INFO - Started process (PID=3287) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:32:12.333+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:32:12.334+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:32:12.334+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:32:12.345+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:32:12.359+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:32:12.359+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:32:12.373+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:32:12.372+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:30:00+00:00, run_after=2025-12-02 23:35:00+00:00
+[2025-12-02T23:32:12.383+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.054 seconds
+[2025-12-02T23:33:29.564+0000] {processor.py:161} INFO - Started process (PID=186) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:33:29.565+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:33:29.566+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:33:29.566+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:33:29.585+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:33:29.604+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:33:29.604+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:33:29.634+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:33:29.634+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:30:00+00:00, run_after=2025-12-02 23:35:00+00:00
+[2025-12-02T23:33:29.662+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.101 seconds
+[2025-12-02T23:34:00.632+0000] {processor.py:161} INFO - Started process (PID=270) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:34:00.633+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:34:00.633+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:34:00.633+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:34:00.647+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:34:00.817+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:34:00.817+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:34:00.833+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:34:00.833+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:30:00+00:00, run_after=2025-12-02 23:35:00+00:00
+[2025-12-02T23:34:00.853+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.224 seconds
+[2025-12-02T23:34:31.696+0000] {processor.py:161} INFO - Started process (PID=352) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:34:31.697+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:34:31.697+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:34:31.697+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:34:31.709+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:34:31.727+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:34:31.727+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:34:31.854+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:34:31.854+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:30:00+00:00, run_after=2025-12-02 23:35:00+00:00
+[2025-12-02T23:34:31.883+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.189 seconds
+[2025-12-02T23:35:03.061+0000] {processor.py:161} INFO - Started process (PID=444) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:35:03.063+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:35:03.063+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:35:03.063+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:35:03.179+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:35:03.192+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:35:03.192+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:35:03.215+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.157 seconds
+[2025-12-02T23:35:33.491+0000] {processor.py:161} INFO - Started process (PID=524) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:35:33.493+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:35:33.493+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:35:33.493+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:35:33.511+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:35:33.529+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:35:33.529+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:35:33.546+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:35:33.546+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:35:00+00:00, run_after=2025-12-02 23:40:00+00:00
+[2025-12-02T23:35:33.563+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.074 seconds
+[2025-12-02T23:36:04.150+0000] {processor.py:161} INFO - Started process (PID=606) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:36:04.151+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:36:04.151+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:36:04.151+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:36:04.163+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:36:04.177+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:36:04.177+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:36:04.194+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:36:04.194+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:35:00+00:00, run_after=2025-12-02 23:40:00+00:00
+[2025-12-02T23:36:04.206+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.059 seconds
+[2025-12-02T23:36:34.797+0000] {processor.py:161} INFO - Started process (PID=694) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:36:34.798+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:36:34.799+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:36:34.798+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:36:34.809+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:36:34.823+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:36:34.823+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:36:34.838+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:36:34.838+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:35:00+00:00, run_after=2025-12-02 23:40:00+00:00
+[2025-12-02T23:36:34.851+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.055 seconds
+[2025-12-02T23:37:06.517+0000] {processor.py:161} INFO - Started process (PID=776) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:37:06.518+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:37:06.518+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:37:06.518+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:37:06.530+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:37:06.547+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:37:06.546+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:37:06.561+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:37:06.561+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:35:00+00:00, run_after=2025-12-02 23:40:00+00:00
+[2025-12-02T23:37:06.574+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.060 seconds
+[2025-12-02T23:37:39.192+0000] {processor.py:161} INFO - Started process (PID=860) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:37:39.192+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:37:39.193+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:37:39.192+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:37:39.205+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:37:39.220+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:37:39.220+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:37:39.235+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:37:39.234+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:35:00+00:00, run_after=2025-12-02 23:40:00+00:00
+[2025-12-02T23:37:39.246+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.057 seconds
+[2025-12-02T23:38:12.013+0000] {processor.py:161} INFO - Started process (PID=940) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:38:12.015+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:38:12.016+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:38:12.016+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:38:12.030+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:38:12.053+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:38:12.052+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:38:12.071+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:38:12.070+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:35:00+00:00, run_after=2025-12-02 23:40:00+00:00
+[2025-12-02T23:38:12.084+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.074 seconds
+[2025-12-02T23:38:44.699+0000] {processor.py:161} INFO - Started process (PID=1022) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:38:44.699+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:38:44.700+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:38:44.699+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:38:44.710+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:38:44.726+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:38:44.726+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:38:44.742+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:38:44.742+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:35:00+00:00, run_after=2025-12-02 23:40:00+00:00
+[2025-12-02T23:38:44.754+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.058 seconds
+[2025-12-02T23:39:17.488+0000] {processor.py:161} INFO - Started process (PID=1106) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:39:17.489+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:39:17.490+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:39:17.490+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:39:17.501+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:39:17.517+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:39:17.517+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:39:17.530+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:39:17.530+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:35:00+00:00, run_after=2025-12-02 23:40:00+00:00
+[2025-12-02T23:39:17.543+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.057 seconds
+[2025-12-02T23:39:50.116+0000] {processor.py:161} INFO - Started process (PID=1186) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:39:50.116+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:39:50.117+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:39:50.116+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:39:50.127+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:39:50.144+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:39:50.144+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:39:50.160+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:39:50.160+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:35:00+00:00, run_after=2025-12-02 23:40:00+00:00
+[2025-12-02T23:39:50.173+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.060 seconds
+[2025-12-02T23:40:22.845+0000] {processor.py:161} INFO - Started process (PID=1282) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:40:22.846+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:40:22.847+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:40:22.846+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:40:22.858+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:40:22.872+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:40:22.872+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:40:22.887+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:40:22.887+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:40:00+00:00, run_after=2025-12-02 23:45:00+00:00
+[2025-12-02T23:40:22.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.055 seconds
+[2025-12-02T23:40:55.647+0000] {processor.py:161} INFO - Started process (PID=1364) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:40:55.648+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:40:55.648+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:40:55.648+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:40:55.661+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:40:55.681+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:40:55.681+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:40:55.701+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:40:55.701+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:40:00+00:00, run_after=2025-12-02 23:45:00+00:00
+[2025-12-02T23:40:55.720+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.075 seconds
+[2025-12-02T23:41:28.713+0000] {processor.py:161} INFO - Started process (PID=1446) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:41:28.714+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:41:28.714+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:41:28.714+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:41:28.725+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:41:28.742+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:41:28.742+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:41:28.756+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:41:28.756+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:40:00+00:00, run_after=2025-12-02 23:45:00+00:00
+[2025-12-02T23:41:28.770+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.060 seconds
+[2025-12-02T23:42:00.580+0000] {processor.py:161} INFO - Started process (PID=1528) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:42:00.581+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:42:00.581+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:42:00.581+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:42:00.592+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:42:00.607+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:42:00.606+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:42:00.621+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:42:00.621+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:40:00+00:00, run_after=2025-12-02 23:45:00+00:00
+[2025-12-02T23:42:00.634+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.056 seconds
+[2025-12-02T23:42:33.411+0000] {processor.py:161} INFO - Started process (PID=1610) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:42:33.412+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:42:33.412+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:42:33.412+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:42:33.425+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:42:33.442+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:42:33.442+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:42:33.463+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:42:33.462+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:40:00+00:00, run_after=2025-12-02 23:45:00+00:00
+[2025-12-02T23:42:33.477+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.069 seconds
+[2025-12-02T23:43:06.309+0000] {processor.py:161} INFO - Started process (PID=1692) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:43:06.310+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:43:06.310+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:43:06.310+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:43:06.322+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:43:06.341+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:43:06.340+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:43:06.357+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:43:06.357+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:40:00+00:00, run_after=2025-12-02 23:45:00+00:00
+[2025-12-02T23:43:06.370+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.064 seconds
+[2025-12-02T23:43:39.157+0000] {processor.py:161} INFO - Started process (PID=1781) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:43:39.158+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:43:39.159+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:43:39.159+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:43:39.190+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:43:39.218+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:43:39.217+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:43:39.244+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:43:39.244+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:40:00+00:00, run_after=2025-12-02 23:45:00+00:00
+[2025-12-02T23:43:39.268+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.115 seconds
+[2025-12-02T23:44:12.079+0000] {processor.py:161} INFO - Started process (PID=1864) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:44:12.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:44:12.082+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:44:12.082+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:44:12.098+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:44:12.116+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:44:12.116+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:44:12.133+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:44:12.133+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:40:00+00:00, run_after=2025-12-02 23:45:00+00:00
+[2025-12-02T23:44:12.149+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.073 seconds
+[2025-12-02T23:44:44.798+0000] {processor.py:161} INFO - Started process (PID=1945) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:44:44.798+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:44:44.799+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:44:44.798+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:44:44.811+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:44:44.826+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:44:44.826+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:44:44.842+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:44:44.842+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:40:00+00:00, run_after=2025-12-02 23:45:00+00:00
+[2025-12-02T23:44:44.853+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.057 seconds
+[2025-12-02T23:45:17.412+0000] {processor.py:161} INFO - Started process (PID=2037) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:45:17.413+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:45:17.414+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:45:17.413+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:45:17.424+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:45:17.440+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:45:17.440+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:45:17.455+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:45:17.455+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:45:00+00:00, run_after=2025-12-02 23:50:00+00:00
+[2025-12-02T23:45:17.468+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.058 seconds
+[2025-12-02T23:45:50.109+0000] {processor.py:161} INFO - Started process (PID=2119) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:45:50.109+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:45:50.110+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:45:50.110+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:45:50.124+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:45:50.141+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:45:50.141+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:45:50.156+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:45:50.156+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:45:00+00:00, run_after=2025-12-02 23:50:00+00:00
+[2025-12-02T23:45:50.168+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.062 seconds
+[2025-12-02T23:46:22.944+0000] {processor.py:161} INFO - Started process (PID=2201) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:46:22.946+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:46:22.947+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:46:22.946+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:46:22.962+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:46:22.979+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:46:22.979+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:46:22.998+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:46:22.998+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:45:00+00:00, run_after=2025-12-02 23:50:00+00:00
+[2025-12-02T23:46:23.014+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.073 seconds
+[2025-12-02T23:46:55.668+0000] {processor.py:161} INFO - Started process (PID=2285) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:46:55.668+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:46:55.669+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:46:55.669+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:46:55.680+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:46:55.696+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:46:55.695+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:46:55.712+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:46:55.712+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:45:00+00:00, run_after=2025-12-02 23:50:00+00:00
+[2025-12-02T23:46:55.724+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.059 seconds
+[2025-12-02T23:47:28.244+0000] {processor.py:161} INFO - Started process (PID=2365) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:47:28.244+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:47:28.245+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:47:28.245+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:47:28.255+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:47:28.269+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:47:28.269+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:47:28.284+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:47:28.284+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:45:00+00:00, run_after=2025-12-02 23:50:00+00:00
+[2025-12-02T23:47:28.296+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.055 seconds
+[2025-12-02T23:48:00.951+0000] {processor.py:161} INFO - Started process (PID=2448) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:48:00.951+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:48:00.952+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:48:00.952+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:48:00.962+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:48:00.976+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:48:00.976+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:48:00.989+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:48:00.989+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:45:00+00:00, run_after=2025-12-02 23:50:00+00:00
+[2025-12-02T23:48:01.002+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.053 seconds
+[2025-12-02T23:48:33.659+0000] {processor.py:161} INFO - Started process (PID=2529) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:48:33.660+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:48:33.660+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:48:33.660+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:48:33.671+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:48:33.686+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:48:33.685+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:48:33.704+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:48:33.704+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:45:00+00:00, run_after=2025-12-02 23:50:00+00:00
+[2025-12-02T23:48:33.721+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.064 seconds
+[2025-12-02T23:49:06.394+0000] {processor.py:161} INFO - Started process (PID=2619) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:49:06.394+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:49:06.395+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:49:06.394+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:49:06.405+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:49:06.419+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:49:06.419+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:49:06.435+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:49:06.434+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:45:00+00:00, run_after=2025-12-02 23:50:00+00:00
+[2025-12-02T23:49:06.447+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.056 seconds
+[2025-12-02T23:49:39.019+0000] {processor.py:161} INFO - Started process (PID=2699) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:49:39.020+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:49:39.020+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:49:39.020+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:49:39.031+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:49:39.045+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:49:39.045+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:49:39.061+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:49:39.061+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:45:00+00:00, run_after=2025-12-02 23:50:00+00:00
+[2025-12-02T23:49:39.072+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.055 seconds
+[2025-12-02T23:50:11.815+0000] {processor.py:161} INFO - Started process (PID=2795) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:50:11.816+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:50:11.816+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:50:11.816+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:50:11.830+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:50:11.847+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:50:11.847+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:50:11.869+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:50:11.869+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:50:00+00:00, run_after=2025-12-02 23:55:00+00:00
+[2025-12-02T23:50:11.888+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.075 seconds
+[2025-12-02T23:50:44.530+0000] {processor.py:161} INFO - Started process (PID=2877) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:50:44.531+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:50:44.532+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:50:44.531+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:50:44.543+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:50:44.558+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:50:44.558+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:50:44.574+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:50:44.574+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:50:00+00:00, run_after=2025-12-02 23:55:00+00:00
+[2025-12-02T23:50:44.586+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.058 seconds
+[2025-12-02T23:51:17.396+0000] {processor.py:161} INFO - Started process (PID=2961) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:51:17.397+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:51:17.397+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:51:17.397+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:51:17.418+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:51:17.439+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:51:17.438+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:51:17.460+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:51:17.460+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:50:00+00:00, run_after=2025-12-02 23:55:00+00:00
+[2025-12-02T23:51:17.478+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.085 seconds
+[2025-12-02T23:51:50.479+0000] {processor.py:161} INFO - Started process (PID=3041) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:51:50.481+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:51:50.482+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:51:50.481+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:51:50.492+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:51:50.507+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:51:50.507+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:51:50.528+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:51:50.528+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:50:00+00:00, run_after=2025-12-02 23:55:00+00:00
+[2025-12-02T23:51:50.541+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.064 seconds
+[2025-12-02T23:52:23.052+0000] {processor.py:161} INFO - Started process (PID=3123) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:52:23.052+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:52:23.053+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:52:23.053+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:52:23.063+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:52:23.079+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:52:23.078+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:52:23.096+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:52:23.095+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:50:00+00:00, run_after=2025-12-02 23:55:00+00:00
+[2025-12-02T23:52:23.108+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.059 seconds
+[2025-12-02T23:52:55.756+0000] {processor.py:161} INFO - Started process (PID=3205) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:52:55.757+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:52:55.757+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:52:55.757+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:52:55.768+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:52:55.781+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:52:55.781+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:52:55.794+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:52:55.794+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:50:00+00:00, run_after=2025-12-02 23:55:00+00:00
+[2025-12-02T23:52:55.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.050 seconds
+[2025-12-02T23:53:28.435+0000] {processor.py:161} INFO - Started process (PID=3287) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:53:28.436+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:53:28.436+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:53:28.436+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:53:28.447+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:53:28.461+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:53:28.461+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:53:28.476+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:53:28.476+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:50:00+00:00, run_after=2025-12-02 23:55:00+00:00
+[2025-12-02T23:53:28.487+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.054 seconds
+[2025-12-02T23:54:01.163+0000] {processor.py:161} INFO - Started process (PID=3369) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:54:01.165+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:54:01.166+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:54:01.166+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:54:01.183+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:54:01.202+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:54:01.201+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:54:01.222+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:54:01.222+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:50:00+00:00, run_after=2025-12-02 23:55:00+00:00
+[2025-12-02T23:54:01.238+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.079 seconds
+[2025-12-02T23:56:22.782+0000] {processor.py:161} INFO - Started process (PID=191) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:56:22.785+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:56:22.787+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:56:22.786+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:56:22.815+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:56:22.832+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:56:22.831+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:56:22.885+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.111 seconds
+[2025-12-02T23:56:54.214+0000] {processor.py:161} INFO - Started process (PID=278) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:56:54.215+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:56:54.216+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:56:54.216+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:56:54.230+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:56:54.422+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:56:54.422+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:56:54.437+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:56:54.436+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:55:00+00:00, run_after=2025-12-03 00:00:00+00:00
+[2025-12-02T23:56:54.456+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.244 seconds
+[2025-12-02T23:57:27.316+0000] {processor.py:161} INFO - Started process (PID=360) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:57:27.318+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:57:27.318+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:57:27.318+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:57:27.458+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:57:27.474+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:57:27.474+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:57:27.489+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:57:27.489+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:55:00+00:00, run_after=2025-12-03 00:00:00+00:00
+[2025-12-02T23:57:27.502+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.187 seconds
+[2025-12-02T23:57:57.828+0000] {processor.py:161} INFO - Started process (PID=442) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:57:57.829+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:57:57.830+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:57:57.829+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:57:57.846+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:57:57.868+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:57:57.868+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:57:57.888+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:57:57.888+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_vendedor to 2025-12-02 23:55:00+00:00, run_after=2025-12-03 00:00:00+00:00
+[2025-12-02T23:57:57.902+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.077 seconds
+[2025-12-02T23:59:01.088+0000] {processor.py:161} INFO - Started process (PID=560) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:59:01.092+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:59:01.094+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:59:01.093+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:59:01.223+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:59:01.404+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:59:01.403+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:59:01.613+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.538 seconds
+[2025-12-02T23:59:11.830+0000] {processor.py:161} INFO - Started process (PID=654) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:59:11.830+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:59:11.831+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:59:11.831+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:59:11.843+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:59:11.861+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:59:11.861+0000] {taskinstance.py:2730} ERROR - {'DAG Id': 'carga_dim_vendedor', 'Task Id': 'load_dim_vendedor', 'Run Id': 'manual__2025-12-02T23:58:12.274250+00:00', 'Hostname': '954fa7f5aadc'}
+[2025-12-02T23:59:11.874+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:59:11.874+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=carga_dim_vendedor, task_id=load_dim_vendedor, execution_date=20251202T235812, start_date=20251202T235812, end_date=20251202T235911
+[2025-12-02T23:59:11.880+0000] {processor.py:791} INFO - Executed failure callback for <TaskInstance: carga_dim_vendedor.load_dim_vendedor manual__2025-12-02T23:58:12.274250+00:00 [up_for_retry]> in state up_for_retry
+[2025-12-02T23:59:11.889+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:59:11.889+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:59:11.913+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.085 seconds
+[2025-12-02T23:59:42.176+0000] {processor.py:161} INFO - Started process (PID=706) to work on /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:59:42.177+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_vendedor.py for tasks to queue
+[2025-12-02T23:59:42.179+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:59:42.178+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:59:42.199+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_vendedor' retrieved from /opt/airflow/dags/carga_dim_vendedor.py
+[2025-12-02T23:59:42.229+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:59:42.228+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:59:42.279+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_vendedor.py took 0.108 seconds

@@ -1,0 +1,233 @@
+[2025-12-03T00:04:50.510+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: upload_slices_hdfs.upload_to_hdfs manual__2025-12-03T00:04:49.653097+00:00 [queued]>
+[2025-12-03T00:04:50.516+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: upload_slices_hdfs.upload_to_hdfs manual__2025-12-03T00:04:49.653097+00:00 [queued]>
+[2025-12-03T00:04:50.516+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 3
+[2025-12-03T00:04:50.524+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): upload_to_hdfs> on 2025-12-03 00:04:49.653097+00:00
+[2025-12-03T00:04:50.528+0000] {standard_task_runner.py:60} INFO - Started process 1595 to run task
+[2025-12-03T00:04:50.530+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'upload_slices_hdfs', 'upload_to_hdfs', 'manual__2025-12-03T00:04:49.653097+00:00', '--job-id', '500', '--raw', '--subdir', 'DAGS_FOLDER/upload_slices_hdfs_dag.py', '--cfg-path', '/tmp/tmpmsa9j2cj']
+[2025-12-03T00:04:50.531+0000] {standard_task_runner.py:88} INFO - Job 500: Subtask upload_to_hdfs
+[2025-12-03T00:04:50.569+0000] {task_command.py:423} INFO - Running <TaskInstance: upload_slices_hdfs.upload_to_hdfs manual__2025-12-03T00:04:49.653097+00:00 [running]> on host 954fa7f5aadc
+[2025-12-03T00:04:50.618+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='etl' AIRFLOW_CTX_DAG_ID='upload_slices_hdfs' AIRFLOW_CTX_TASK_ID='upload_to_hdfs' AIRFLOW_CTX_EXECUTION_DATE='2025-12-03T00:04:49.653097+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-03T00:04:49.653097+00:00'
+[2025-12-03T00:04:50.619+0000] {logging_mixin.py:188} INFO - === Enviando slices para o HDFS em formato Parquet ===
+[2025-12-03T00:04:50.619+0000] {logging_mixin.py:188} INFO - 🔌 Conectando ao HDFS...
+[2025-12-03T00:04:50.619+0000] {logging_mixin.py:188} INFO - >> Rodando em Docker — usando namenode:9870
+[2025-12-03T00:04:50.620+0000] {client.py:192} INFO - Instantiated <InsecureClient(url='http://namenode:9870')>.
+[2025-12-03T00:04:50.685+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2023/mes=01'.
+[2025-12-03T00:04:51.916+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2023/mes=01/dados.parquet'.
+[2025-12-03T00:04:53.231+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2023/mes=01/dados.parquet (3287 linhas)
+[2025-12-03T00:04:53.232+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2023/mes=02'.
+[2025-12-03T00:04:53.242+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2023/mes=02/dados.parquet'.
+[2025-12-03T00:04:53.282+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2023/mes=02/dados.parquet (3014 linhas)
+[2025-12-03T00:04:53.282+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2023/mes=03'.
+[2025-12-03T00:04:53.290+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2023/mes=03/dados.parquet'.
+[2025-12-03T00:04:53.327+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2023/mes=03/dados.parquet (3344 linhas)
+[2025-12-03T00:04:53.327+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2023/mes=04'.
+[2025-12-03T00:04:53.334+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2023/mes=04/dados.parquet'.
+[2025-12-03T00:04:53.779+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2023/mes=04/dados.parquet (3191 linhas)
+[2025-12-03T00:04:53.780+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2023/mes=05'.
+[2025-12-03T00:04:53.788+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2023/mes=05/dados.parquet'.
+[2025-12-03T00:04:54.231+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2023/mes=05/dados.parquet (3315 linhas)
+[2025-12-03T00:04:54.231+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2023/mes=06'.
+[2025-12-03T00:04:54.242+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2023/mes=06/dados.parquet'.
+[2025-12-03T00:04:54.272+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2023/mes=06/dados.parquet (3179 linhas)
+[2025-12-03T00:04:54.273+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2023/mes=07'.
+[2025-12-03T00:04:54.278+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2023/mes=07/dados.parquet'.
+[2025-12-03T00:04:54.313+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2023/mes=07/dados.parquet (3273 linhas)
+[2025-12-03T00:04:54.314+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2023/mes=08'.
+[2025-12-03T00:04:54.320+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2023/mes=08/dados.parquet'.
+[2025-12-03T00:04:54.759+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2023/mes=08/dados.parquet (3327 linhas)
+[2025-12-03T00:04:54.759+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2023/mes=09'.
+[2025-12-03T00:04:54.767+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2023/mes=09/dados.parquet'.
+[2025-12-03T00:04:54.804+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2023/mes=09/dados.parquet (3136 linhas)
+[2025-12-03T00:04:54.804+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2023/mes=10'.
+[2025-12-03T00:04:54.811+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2023/mes=10/dados.parquet'.
+[2025-12-03T00:04:54.892+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2023/mes=10/dados.parquet (3358 linhas)
+[2025-12-03T00:04:54.893+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2023/mes=11'.
+[2025-12-03T00:04:54.903+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2023/mes=11/dados.parquet'.
+[2025-12-03T00:04:55.349+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2023/mes=11/dados.parquet (3204 linhas)
+[2025-12-03T00:04:55.349+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2023/mes=12'.
+[2025-12-03T00:04:55.357+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2023/mes=12/dados.parquet'.
+[2025-12-03T00:04:55.428+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2023/mes=12/dados.parquet (3349 linhas)
+[2025-12-03T00:04:55.428+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2024/mes=01'.
+[2025-12-03T00:04:55.436+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2024/mes=01/dados.parquet'.
+[2025-12-03T00:04:55.888+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2024/mes=01/dados.parquet (3524 linhas)
+[2025-12-03T00:04:55.888+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2024/mes=02'.
+[2025-12-03T00:04:55.895+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2024/mes=02/dados.parquet'.
+[2025-12-03T00:04:55.954+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2024/mes=02/dados.parquet (3366 linhas)
+[2025-12-03T00:04:55.954+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2024/mes=03'.
+[2025-12-03T00:04:55.960+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2024/mes=03/dados.parquet'.
+[2025-12-03T00:04:56.001+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2024/mes=03/dados.parquet (3623 linhas)
+[2025-12-03T00:04:56.001+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2024/mes=04'.
+[2025-12-03T00:04:56.009+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2024/mes=04/dados.parquet'.
+[2025-12-03T00:04:56.051+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2024/mes=04/dados.parquet (3472 linhas)
+[2025-12-03T00:04:56.051+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2024/mes=05'.
+[2025-12-03T00:04:56.059+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2024/mes=05/dados.parquet'.
+[2025-12-03T00:04:56.108+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2024/mes=05/dados.parquet (3550 linhas)
+[2025-12-03T00:04:56.109+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2024/mes=06'.
+[2025-12-03T00:04:56.115+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2024/mes=06/dados.parquet'.
+[2025-12-03T00:04:56.560+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2024/mes=06/dados.parquet (3420 linhas)
+[2025-12-03T00:04:56.561+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2024/mes=07'.
+[2025-12-03T00:04:56.569+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2024/mes=07/dados.parquet'.
+[2025-12-03T00:04:57.028+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2024/mes=07/dados.parquet (3568 linhas)
+[2025-12-03T00:04:57.028+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2024/mes=08'.
+[2025-12-03T00:04:57.040+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2024/mes=08/dados.parquet'.
+[2025-12-03T00:04:57.106+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2024/mes=08/dados.parquet (3504 linhas)
+[2025-12-03T00:04:57.107+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2024/mes=09'.
+[2025-12-03T00:04:57.113+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2024/mes=09/dados.parquet'.
+[2025-12-03T00:04:57.558+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2024/mes=09/dados.parquet (3423 linhas)
+[2025-12-03T00:04:57.559+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2024/mes=10'.
+[2025-12-03T00:04:57.567+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2024/mes=10/dados.parquet'.
+[2025-12-03T00:04:57.629+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2024/mes=10/dados.parquet (3605 linhas)
+[2025-12-03T00:04:57.630+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2024/mes=11'.
+[2025-12-03T00:04:57.636+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2024/mes=11/dados.parquet'.
+[2025-12-03T00:04:58.091+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2024/mes=11/dados.parquet (3466 linhas)
+[2025-12-03T00:04:58.091+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2024/mes=12'.
+[2025-12-03T00:04:58.100+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2024/mes=12/dados.parquet'.
+[2025-12-03T00:04:58.563+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2024/mes=12/dados.parquet (3626 linhas)
+[2025-12-03T00:04:58.563+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2025/mes=01'.
+[2025-12-03T00:04:58.572+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2025/mes=01/dados.parquet'.
+[2025-12-03T00:04:58.493+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2025/mes=01/dados.parquet (3752 linhas)
+[2025-12-03T00:04:58.494+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2025/mes=02'.
+[2025-12-03T00:04:58.501+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2025/mes=02/dados.parquet'.
+[2025-12-03T00:04:58.524+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2025/mes=02/dados.parquet (3448 linhas)
+[2025-12-03T00:04:58.524+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2025/mes=03'.
+[2025-12-03T00:04:58.531+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2025/mes=03/dados.parquet'.
+[2025-12-03T00:04:58.956+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2025/mes=03/dados.parquet (3810 linhas)
+[2025-12-03T00:04:58.956+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2025/mes=04'.
+[2025-12-03T00:04:58.964+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2025/mes=04/dados.parquet'.
+[2025-12-03T00:04:58.985+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2025/mes=04/dados.parquet (3715 linhas)
+[2025-12-03T00:04:58.985+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2025/mes=05'.
+[2025-12-03T00:04:58.990+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2025/mes=05/dados.parquet'.
+[2025-12-03T00:04:59.011+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2025/mes=05/dados.parquet (3796 linhas)
+[2025-12-03T00:04:59.011+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2025/mes=06'.
+[2025-12-03T00:04:59.018+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2025/mes=06/dados.parquet'.
+[2025-12-03T00:04:59.038+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2025/mes=06/dados.parquet (3602 linhas)
+[2025-12-03T00:04:59.038+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2025/mes=07'.
+[2025-12-03T00:04:59.044+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2025/mes=07/dados.parquet'.
+[2025-12-03T00:04:59.066+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2025/mes=07/dados.parquet (3775 linhas)
+[2025-12-03T00:04:59.067+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2025/mes=08'.
+[2025-12-03T00:04:59.072+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2025/mes=08/dados.parquet'.
+[2025-12-03T00:04:59.094+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2025/mes=08/dados.parquet (3766 linhas)
+[2025-12-03T00:04:59.095+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2025/mes=09'.
+[2025-12-03T00:04:59.102+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2025/mes=09/dados.parquet'.
+[2025-12-03T00:04:59.528+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2025/mes=09/dados.parquet (3673 linhas)
+[2025-12-03T00:04:59.529+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2025/mes=10'.
+[2025-12-03T00:04:59.538+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2025/mes=10/dados.parquet'.
+[2025-12-03T00:04:59.964+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2025/mes=10/dados.parquet (3849 linhas)
+[2025-12-03T00:04:59.964+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/recompra/ano=2025/mes=11'.
+[2025-12-03T00:04:59.972+0000] {client.py:496} INFO - Writing to '/datalake/analytics/recompra/ano=2025/mes=11/dados.parquet'.
+[2025-12-03T00:04:59.998+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/recompra/ano=2025/mes=11/dados.parquet (4046 linhas)
+[2025-12-03T00:05:00.266+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/atrasos/ano=1970/mes=01'.
+[2025-12-03T00:05:00.374+0000] {client.py:496} INFO - Writing to '/datalake/analytics/atrasos/ano=1970/mes=01/dados.parquet'.
+[2025-12-03T00:05:00.833+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/atrasos/ano=1970/mes=01/dados.parquet (399115 linhas)
+[2025-12-03T00:05:00.842+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2023/mes=01'.
+[2025-12-03T00:05:00.851+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2023/mes=01/dados.parquet'.
+[2025-12-03T00:05:01.303+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2023/mes=01/dados.parquet (75 linhas)
+[2025-12-03T00:05:01.304+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2023/mes=02'.
+[2025-12-03T00:05:01.314+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2023/mes=02/dados.parquet'.
+[2025-12-03T00:05:01.360+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2023/mes=02/dados.parquet (59 linhas)
+[2025-12-03T00:05:01.360+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2023/mes=03'.
+[2025-12-03T00:05:01.368+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2023/mes=03/dados.parquet'.
+[2025-12-03T00:05:01.810+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2023/mes=03/dados.parquet (70 linhas)
+[2025-12-03T00:05:01.811+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2023/mes=04'.
+[2025-12-03T00:05:01.815+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2023/mes=04/dados.parquet'.
+[2025-12-03T00:05:02.240+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2023/mes=04/dados.parquet (62 linhas)
+[2025-12-03T00:05:02.240+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2023/mes=05'.
+[2025-12-03T00:05:02.245+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2023/mes=05/dados.parquet'.
+[2025-12-03T00:05:02.670+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2023/mes=05/dados.parquet (64 linhas)
+[2025-12-03T00:05:02.670+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2023/mes=06'.
+[2025-12-03T00:05:02.674+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2023/mes=06/dados.parquet'.
+[2025-12-03T00:05:03.102+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2023/mes=06/dados.parquet (69 linhas)
+[2025-12-03T00:05:03.102+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2023/mes=07'.
+[2025-12-03T00:05:03.108+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2023/mes=07/dados.parquet'.
+[2025-12-03T00:05:03.537+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2023/mes=07/dados.parquet (70 linhas)
+[2025-12-03T00:05:03.538+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2023/mes=08'.
+[2025-12-03T00:05:03.543+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2023/mes=08/dados.parquet'.
+[2025-12-03T00:05:03.572+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2023/mes=08/dados.parquet (70 linhas)
+[2025-12-03T00:05:03.572+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2023/mes=09'.
+[2025-12-03T00:05:03.578+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2023/mes=09/dados.parquet'.
+[2025-12-03T00:05:03.603+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2023/mes=09/dados.parquet (65 linhas)
+[2025-12-03T00:05:03.603+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2023/mes=10'.
+[2025-12-03T00:05:03.609+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2023/mes=10/dados.parquet'.
+[2025-12-03T00:05:03.633+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2023/mes=10/dados.parquet (63 linhas)
+[2025-12-03T00:05:03.634+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2023/mes=11'.
+[2025-12-03T00:05:03.639+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2023/mes=11/dados.parquet'.
+[2025-12-03T00:05:04.067+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2023/mes=11/dados.parquet (78 linhas)
+[2025-12-03T00:05:04.068+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2023/mes=12'.
+[2025-12-03T00:05:07.312+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2023/mes=12/dados.parquet'.
+[2025-12-03T00:05:07.748+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2023/mes=12/dados.parquet (77 linhas)
+[2025-12-03T00:05:07.749+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2024/mes=01'.
+[2025-12-03T00:05:07.753+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2024/mes=01/dados.parquet'.
+[2025-12-03T00:05:08.178+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2024/mes=01/dados.parquet (80 linhas)
+[2025-12-03T00:05:08.178+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2024/mes=02'.
+[2025-12-03T00:05:08.182+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2024/mes=02/dados.parquet'.
+[2025-12-03T00:05:08.208+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2024/mes=02/dados.parquet (77 linhas)
+[2025-12-03T00:05:08.208+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2024/mes=03'.
+[2025-12-03T00:05:08.213+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2024/mes=03/dados.parquet'.
+[2025-12-03T00:05:08.644+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2024/mes=03/dados.parquet (77 linhas)
+[2025-12-03T00:05:08.645+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2024/mes=04'.
+[2025-12-03T00:05:08.650+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2024/mes=04/dados.parquet'.
+[2025-12-03T00:05:08.674+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2024/mes=04/dados.parquet (70 linhas)
+[2025-12-03T00:05:08.675+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2024/mes=05'.
+[2025-12-03T00:05:08.680+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2024/mes=05/dados.parquet'.
+[2025-12-03T00:05:09.111+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2024/mes=05/dados.parquet (77 linhas)
+[2025-12-03T00:05:09.112+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2024/mes=06'.
+[2025-12-03T00:05:09.120+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2024/mes=06/dados.parquet'.
+[2025-12-03T00:05:09.588+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2024/mes=06/dados.parquet (70 linhas)
+[2025-12-03T00:05:09.588+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2024/mes=07'.
+[2025-12-03T00:05:09.595+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2024/mes=07/dados.parquet'.
+[2025-12-03T00:05:09.623+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2024/mes=07/dados.parquet (89 linhas)
+[2025-12-03T00:05:09.624+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2024/mes=08'.
+[2025-12-03T00:05:09.629+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2024/mes=08/dados.parquet'.
+[2025-12-03T00:05:09.655+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2024/mes=08/dados.parquet (72 linhas)
+[2025-12-03T00:05:09.655+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2024/mes=09'.
+[2025-12-03T00:05:09.660+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2024/mes=09/dados.parquet'.
+[2025-12-03T00:05:09.686+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2024/mes=09/dados.parquet (77 linhas)
+[2025-12-03T00:05:09.687+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2024/mes=10'.
+[2025-12-03T00:05:09.691+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2024/mes=10/dados.parquet'.
+[2025-12-03T00:05:09.716+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2024/mes=10/dados.parquet (90 linhas)
+[2025-12-03T00:05:09.716+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2024/mes=11'.
+[2025-12-03T00:05:09.721+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2024/mes=11/dados.parquet'.
+[2025-12-03T00:05:10.147+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2024/mes=11/dados.parquet (81 linhas)
+[2025-12-03T00:05:10.147+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2024/mes=12'.
+[2025-12-03T00:05:10.152+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2024/mes=12/dados.parquet'.
+[2025-12-03T00:05:10.586+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2024/mes=12/dados.parquet (76 linhas)
+[2025-12-03T00:05:10.587+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2025/mes=01'.
+[2025-12-03T00:05:10.593+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2025/mes=01/dados.parquet'.
+[2025-12-03T00:05:11.028+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2025/mes=01/dados.parquet (106 linhas)
+[2025-12-03T00:05:11.028+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2025/mes=02'.
+[2025-12-03T00:05:11.035+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2025/mes=02/dados.parquet'.
+[2025-12-03T00:05:11.458+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2025/mes=02/dados.parquet (98 linhas)
+[2025-12-03T00:05:11.459+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2025/mes=03'.
+[2025-12-03T00:05:11.464+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2025/mes=03/dados.parquet'.
+[2025-12-03T00:05:11.889+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2025/mes=03/dados.parquet (106 linhas)
+[2025-12-03T00:05:11.890+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2025/mes=04'.
+[2025-12-03T00:05:11.893+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2025/mes=04/dados.parquet'.
+[2025-12-03T00:05:12.320+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2025/mes=04/dados.parquet (89 linhas)
+[2025-12-03T00:05:12.320+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2025/mes=05'.
+[2025-12-03T00:05:12.324+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2025/mes=05/dados.parquet'.
+[2025-12-03T00:05:12.746+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2025/mes=05/dados.parquet (88 linhas)
+[2025-12-03T00:05:12.746+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2025/mes=06'.
+[2025-12-03T00:05:12.749+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2025/mes=06/dados.parquet'.
+[2025-12-03T00:05:13.173+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2025/mes=06/dados.parquet (97 linhas)
+[2025-12-03T00:05:13.173+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2025/mes=07'.
+[2025-12-03T00:05:13.180+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2025/mes=07/dados.parquet'.
+[2025-12-03T00:05:13.212+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2025/mes=07/dados.parquet (88 linhas)
+[2025-12-03T00:05:13.213+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2025/mes=08'.
+[2025-12-03T00:05:13.221+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2025/mes=08/dados.parquet'.
+[2025-12-03T00:05:13.656+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2025/mes=08/dados.parquet (82 linhas)
+[2025-12-03T00:05:13.657+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2025/mes=09'.
+[2025-12-03T00:05:13.662+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2025/mes=09/dados.parquet'.
+[2025-12-03T00:05:14.089+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2025/mes=09/dados.parquet (98 linhas)
+[2025-12-03T00:05:14.090+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2025/mes=10'.
+[2025-12-03T00:05:14.093+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2025/mes=10/dados.parquet'.
+[2025-12-03T00:05:14.115+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2025/mes=10/dados.parquet (84 linhas)
+[2025-12-03T00:05:14.116+0000] {client.py:1028} INFO - Creating directories to '/datalake/analytics/valor_30dias/ano=2025/mes=11'.
+[2025-12-03T00:05:14.122+0000] {client.py:496} INFO - Writing to '/datalake/analytics/valor_30dias/ano=2025/mes=11/dados.parquet'.
+[2025-12-03T00:05:14.552+0000] {logging_mixin.py:188} INFO - [OK] /datalake/analytics/valor_30dias/ano=2025/mes=11/dados.parquet (41 linhas)
+[2025-12-03T00:05:14.553+0000] {logging_mixin.py:188} INFO - 
+✔ Upload para o HDFS concluído!
+[2025-12-03T00:05:14.553+0000] {logging_mixin.py:188} INFO - === Upload concluído com sucesso ===
+[2025-12-03T00:05:14.553+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-12-03T00:05:14.563+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=upload_slices_hdfs, task_id=upload_to_hdfs, execution_date=20251203T000449, start_date=20251203T000450, end_date=20251203T000514
+[2025-12-03T00:05:14.585+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-12-03T00:05:14.594+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

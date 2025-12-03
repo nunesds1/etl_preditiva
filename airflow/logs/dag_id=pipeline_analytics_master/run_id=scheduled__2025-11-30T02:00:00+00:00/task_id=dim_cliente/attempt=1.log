@@ -1,0 +1,14 @@
+[2025-12-01T02:47:10.842+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_analytics_master.dim_cliente scheduled__2025-11-30T02:00:00+00:00 [queued]>
+[2025-12-01T02:47:10.855+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_analytics_master.dim_cliente scheduled__2025-11-30T02:00:00+00:00 [queued]>
+[2025-12-01T02:47:10.855+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2025-12-01T02:47:10.871+0000] {taskinstance.py:2214} INFO - Executing <Task(TriggerDagRunOperator): dim_cliente> on 2025-11-30 02:00:00+00:00
+[2025-12-01T02:47:10.877+0000] {standard_task_runner.py:60} INFO - Started process 525 to run task
+[2025-12-01T02:47:10.882+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pipeline_analytics_master', 'dim_cliente', 'scheduled__2025-11-30T02:00:00+00:00', '--job-id', '203', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_analytics_master.py', '--cfg-path', '/tmp/tmpqnzipz_d']
+[2025-12-01T02:47:10.886+0000] {standard_task_runner.py:88} INFO - Job 203: Subtask dim_cliente
+[2025-12-01T02:47:10.990+0000] {task_command.py:423} INFO - Running <TaskInstance: pipeline_analytics_master.dim_cliente scheduled__2025-11-30T02:00:00+00:00 [running]> on host 1439f57e621d
+[2025-12-01T02:47:12.290+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='etl' AIRFLOW_CTX_DAG_ID='pipeline_analytics_master' AIRFLOW_CTX_TASK_ID='dim_cliente' AIRFLOW_CTX_EXECUTION_DATE='2025-11-30T02:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-30T02:00:00+00:00'
+[2025-12-01T02:47:12.383+0000] {trigger_dagrun.py:210} INFO - Waiting for carga_dim_cliente on 2025-12-01 02:47:12.291836+00:00 to become allowed state ['success'] ...
+[2025-12-01T02:48:13.833+0000] {trigger_dagrun.py:223} INFO - carga_dim_cliente finished with allowed state success
+[2025-12-01T02:48:13.847+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=pipeline_analytics_master, task_id=dim_cliente, execution_date=20251130T020000, start_date=20251201T024710, end_date=20251201T024813
+[2025-12-01T02:48:13.889+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-12-01T02:48:14.495+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

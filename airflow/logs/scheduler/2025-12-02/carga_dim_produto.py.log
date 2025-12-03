@@ -1,0 +1,794 @@
+[2025-12-02T22:55:30.086+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T22:55:30.087+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T22:55:30.088+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:55:30.088+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T22:55:30.107+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T22:55:30.124+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:55:30.124+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T22:55:30.157+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:55:30.156+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 22:50:00+00:00, run_after=2025-12-02 22:55:00+00:00
+[2025-12-02T22:55:30.181+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.098 seconds
+[2025-12-02T22:56:02.310+0000] {processor.py:161} INFO - Started process (PID=335) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T22:56:02.312+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T22:56:02.314+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:56:02.313+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T22:56:02.342+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T22:56:02.612+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:56:02.612+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T22:56:02.635+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:56:02.635+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 22:55:00+00:00, run_after=2025-12-02 23:00:00+00:00
+[2025-12-02T22:56:02.657+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.350 seconds
+[2025-12-02T22:56:33.255+0000] {processor.py:161} INFO - Started process (PID=419) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T22:56:33.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T22:56:33.256+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:56:33.256+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T22:56:33.273+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T22:56:33.468+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:56:33.468+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T22:56:33.492+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:56:33.492+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 22:55:00+00:00, run_after=2025-12-02 23:00:00+00:00
+[2025-12-02T22:56:33.509+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.258 seconds
+[2025-12-02T22:57:04.777+0000] {processor.py:161} INFO - Started process (PID=513) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T22:57:04.779+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T22:57:04.781+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:57:04.780+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T22:57:04.816+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T22:57:04.858+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:57:04.858+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T22:57:04.910+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:57:04.910+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 22:55:00+00:00, run_after=2025-12-02 23:00:00+00:00
+[2025-12-02T22:57:04.946+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.172 seconds
+[2025-12-02T22:57:35.758+0000] {processor.py:161} INFO - Started process (PID=595) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T22:57:35.760+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T22:57:35.760+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:57:35.760+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T22:57:35.772+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T22:57:35.786+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:57:35.786+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T22:57:35.800+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:57:35.800+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 22:55:00+00:00, run_after=2025-12-02 23:00:00+00:00
+[2025-12-02T22:57:35.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.056 seconds
+[2025-12-02T22:58:06.348+0000] {processor.py:161} INFO - Started process (PID=682) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T22:58:06.350+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T22:58:06.351+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:58:06.351+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T22:58:06.375+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T22:58:06.400+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:58:06.399+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T22:58:06.426+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:58:06.425+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 22:55:00+00:00, run_after=2025-12-02 23:00:00+00:00
+[2025-12-02T22:58:06.444+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.103 seconds
+[2025-12-02T22:58:37.036+0000] {processor.py:161} INFO - Started process (PID=764) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T22:58:37.037+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T22:58:37.037+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:58:37.037+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T22:58:37.048+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T22:58:37.063+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:58:37.063+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T22:58:37.078+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:58:37.078+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 22:55:00+00:00, run_after=2025-12-02 23:00:00+00:00
+[2025-12-02T22:58:37.089+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.056 seconds
+[2025-12-02T22:59:07.472+0000] {processor.py:161} INFO - Started process (PID=851) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T22:59:07.473+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T22:59:07.473+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:59:07.473+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T22:59:07.485+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T22:59:07.500+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:59:07.500+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T22:59:07.514+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:59:07.514+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 22:55:00+00:00, run_after=2025-12-02 23:00:00+00:00
+[2025-12-02T22:59:07.527+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.058 seconds
+[2025-12-02T22:59:37.848+0000] {processor.py:161} INFO - Started process (PID=933) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T22:59:37.849+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T22:59:37.849+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:59:37.849+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T22:59:37.862+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T22:59:37.878+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:59:37.878+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T22:59:37.894+0000] {logging_mixin.py:188} INFO - [2025-12-02T22:59:37.893+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 22:55:00+00:00, run_after=2025-12-02 23:00:00+00:00
+[2025-12-02T22:59:37.907+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.061 seconds
+[2025-12-02T23:00:08.255+0000] {processor.py:161} INFO - Started process (PID=1029) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:00:08.257+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:00:08.258+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:00:08.258+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:00:08.272+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:00:08.290+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:00:08.290+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:00:08.307+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:00:08.307+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:00:00+00:00, run_after=2025-12-02 23:05:00+00:00
+[2025-12-02T23:00:08.321+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.069 seconds
+[2025-12-02T23:00:38.654+0000] {processor.py:161} INFO - Started process (PID=1111) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:00:38.654+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:00:38.655+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:00:38.655+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:00:38.665+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:00:38.680+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:00:38.680+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:00:38.695+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:00:38.695+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:00:00+00:00, run_after=2025-12-02 23:05:00+00:00
+[2025-12-02T23:00:38.707+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.056 seconds
+[2025-12-02T23:01:09.029+0000] {processor.py:161} INFO - Started process (PID=1196) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:01:09.031+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:01:09.032+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:01:09.031+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:01:09.045+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:01:09.073+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:01:09.073+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:01:09.090+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:01:09.090+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:00:00+00:00, run_after=2025-12-02 23:05:00+00:00
+[2025-12-02T23:01:09.102+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.077 seconds
+[2025-12-02T23:01:39.377+0000] {processor.py:161} INFO - Started process (PID=1276) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:01:39.379+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:01:39.380+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:01:39.379+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:01:39.397+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:01:39.422+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:01:39.422+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:01:39.449+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:01:39.449+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:00:00+00:00, run_after=2025-12-02 23:05:00+00:00
+[2025-12-02T23:01:39.471+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.099 seconds
+[2025-12-02T23:02:11.989+0000] {processor.py:161} INFO - Started process (PID=1358) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:02:11.991+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:02:11.993+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:02:11.992+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:02:12.012+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:02:12.036+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:02:12.035+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:02:12.060+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:02:12.060+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:00:00+00:00, run_after=2025-12-02 23:05:00+00:00
+[2025-12-02T23:02:12.082+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.097 seconds
+[2025-12-02T23:02:45.009+0000] {processor.py:161} INFO - Started process (PID=1440) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:02:45.011+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:02:45.011+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:02:45.011+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:02:45.026+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:02:45.049+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:02:45.048+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:02:45.072+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:02:45.072+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:00:00+00:00, run_after=2025-12-02 23:05:00+00:00
+[2025-12-02T23:02:45.093+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.086 seconds
+[2025-12-02T23:03:18.085+0000] {processor.py:161} INFO - Started process (PID=1525) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:03:18.087+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:03:18.088+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:03:18.087+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:03:18.107+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:03:18.130+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:03:18.130+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:03:18.161+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:03:18.160+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:00:00+00:00, run_after=2025-12-02 23:05:00+00:00
+[2025-12-02T23:03:18.183+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.103 seconds
+[2025-12-02T23:03:50.564+0000] {processor.py:161} INFO - Started process (PID=1607) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:03:50.565+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:03:50.565+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:03:50.565+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:03:50.579+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:03:50.597+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:03:50.597+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:03:50.615+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:03:50.615+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:00:00+00:00, run_after=2025-12-02 23:05:00+00:00
+[2025-12-02T23:03:50.628+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.066 seconds
+[2025-12-02T23:04:23.293+0000] {processor.py:161} INFO - Started process (PID=1689) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:04:23.293+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:04:23.294+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:04:23.294+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:04:23.306+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:04:23.327+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:04:23.326+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:04:23.341+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:04:23.341+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:00:00+00:00, run_after=2025-12-02 23:05:00+00:00
+[2025-12-02T23:04:23.355+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.064 seconds
+[2025-12-02T23:04:55.776+0000] {processor.py:161} INFO - Started process (PID=1771) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:04:55.778+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:04:55.778+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:04:55.778+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:04:55.789+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:04:55.805+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:04:55.805+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:04:55.819+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:04:55.819+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:00:00+00:00, run_after=2025-12-02 23:05:00+00:00
+[2025-12-02T23:04:55.833+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.059 seconds
+[2025-12-02T23:05:28.567+0000] {processor.py:161} INFO - Started process (PID=1865) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:05:28.569+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:05:28.570+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:05:28.570+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:05:28.585+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:05:28.602+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:05:28.602+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:05:28.619+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:05:28.619+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:05:00+00:00, run_after=2025-12-02 23:10:00+00:00
+[2025-12-02T23:05:28.632+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.068 seconds
+[2025-12-02T23:06:00.440+0000] {processor.py:161} INFO - Started process (PID=1945) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:06:00.441+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:06:00.442+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:06:00.442+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:06:00.453+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:06:00.467+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:06:00.467+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:06:00.483+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:06:00.483+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:05:00+00:00, run_after=2025-12-02 23:10:00+00:00
+[2025-12-02T23:06:00.497+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.060 seconds
+[2025-12-02T23:06:33.116+0000] {processor.py:161} INFO - Started process (PID=2029) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:06:33.118+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:06:33.118+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:06:33.118+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:06:33.129+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:06:33.144+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:06:33.143+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:06:33.159+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:06:33.159+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:05:00+00:00, run_after=2025-12-02 23:10:00+00:00
+[2025-12-02T23:06:33.172+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.058 seconds
+[2025-12-02T23:07:06.591+0000] {processor.py:161} INFO - Started process (PID=2118) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:07:06.592+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:07:06.593+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:07:06.593+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:07:06.608+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:07:06.632+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:07:06.632+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:07:06.657+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:07:06.657+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:05:00+00:00, run_after=2025-12-02 23:10:00+00:00
+[2025-12-02T23:07:06.675+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.089 seconds
+[2025-12-02T23:07:38.433+0000] {processor.py:161} INFO - Started process (PID=2200) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:07:38.434+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:07:38.434+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:07:38.434+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:07:38.450+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:07:38.467+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:07:38.467+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:07:38.488+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:07:38.488+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:05:00+00:00, run_after=2025-12-02 23:10:00+00:00
+[2025-12-02T23:07:38.502+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.074 seconds
+[2025-12-02T23:08:11.136+0000] {processor.py:161} INFO - Started process (PID=2282) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:08:11.136+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:08:11.137+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:08:11.137+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:08:11.148+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:08:11.161+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:08:11.161+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:08:11.175+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:08:11.175+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:05:00+00:00, run_after=2025-12-02 23:10:00+00:00
+[2025-12-02T23:08:11.188+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.055 seconds
+[2025-12-02T23:08:44.955+0000] {processor.py:161} INFO - Started process (PID=2366) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:08:44.958+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:08:44.959+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:08:44.958+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:08:44.972+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:08:44.993+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:08:44.992+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:08:45.014+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:08:45.014+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:05:00+00:00, run_after=2025-12-02 23:10:00+00:00
+[2025-12-02T23:08:45.035+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.082 seconds
+[2025-12-02T23:09:16.913+0000] {processor.py:161} INFO - Started process (PID=2448) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:09:16.914+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:09:16.914+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:09:16.914+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:09:16.929+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:09:16.950+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:09:16.949+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:09:16.966+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:09:16.966+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:05:00+00:00, run_after=2025-12-02 23:10:00+00:00
+[2025-12-02T23:09:16.980+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.070 seconds
+[2025-12-02T23:09:49.770+0000] {processor.py:161} INFO - Started process (PID=2528) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:09:49.772+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:09:49.773+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:09:49.773+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:09:49.787+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:09:49.804+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:09:49.804+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:09:49.821+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:09:49.821+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:05:00+00:00, run_after=2025-12-02 23:10:00+00:00
+[2025-12-02T23:09:49.840+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.072 seconds
+[2025-12-02T23:10:22.832+0000] {processor.py:161} INFO - Started process (PID=2624) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:10:22.833+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:10:22.833+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:10:22.833+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:10:22.846+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:10:22.862+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:10:22.862+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:10:22.878+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:10:22.878+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:10:00+00:00, run_after=2025-12-02 23:15:00+00:00
+[2025-12-02T23:10:22.893+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.064 seconds
+[2025-12-02T23:10:54.836+0000] {processor.py:161} INFO - Started process (PID=2706) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:10:54.837+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:10:54.837+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:10:54.837+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:10:54.849+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:10:54.865+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:10:54.865+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:10:54.881+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:10:54.881+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:10:00+00:00, run_after=2025-12-02 23:15:00+00:00
+[2025-12-02T23:10:54.894+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.061 seconds
+[2025-12-02T23:11:28.623+0000] {processor.py:161} INFO - Started process (PID=2790) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:11:28.625+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:11:28.625+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:11:28.625+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:11:28.637+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:11:28.652+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:11:28.652+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:11:28.667+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:11:28.667+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:10:00+00:00, run_after=2025-12-02 23:15:00+00:00
+[2025-12-02T23:11:28.678+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.057 seconds
+[2025-12-02T23:12:19.460+0000] {processor.py:161} INFO - Started process (PID=196) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:12:19.462+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:12:19.463+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:12:19.463+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:12:19.482+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:12:19.499+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:12:19.499+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:12:19.529+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:12:19.529+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:10:00+00:00, run_after=2025-12-02 23:15:00+00:00
+[2025-12-02T23:12:19.552+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.096 seconds
+[2025-12-02T23:12:50.623+0000] {processor.py:161} INFO - Started process (PID=278) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:12:50.624+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:12:50.625+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:12:50.625+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:12:50.637+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:12:50.824+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:12:50.824+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:12:50.841+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:12:50.841+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:10:00+00:00, run_after=2025-12-02 23:15:00+00:00
+[2025-12-02T23:12:50.864+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.245 seconds
+[2025-12-02T23:13:21.732+0000] {processor.py:161} INFO - Started process (PID=362) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:13:21.732+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:13:21.733+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:13:21.733+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:13:21.748+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:13:21.768+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:13:21.768+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:13:21.932+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:13:21.932+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:10:00+00:00, run_after=2025-12-02 23:15:00+00:00
+[2025-12-02T23:13:21.947+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.219 seconds
+[2025-12-02T23:13:54.063+0000] {processor.py:161} INFO - Started process (PID=447) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:13:54.065+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:13:54.067+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:13:54.066+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:13:54.104+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:13:54.145+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:13:54.144+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:13:54.191+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:13:54.191+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:10:00+00:00, run_after=2025-12-02 23:15:00+00:00
+[2025-12-02T23:13:54.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.181 seconds
+[2025-12-02T23:14:25.004+0000] {processor.py:161} INFO - Started process (PID=529) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:14:25.006+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:14:25.007+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:14:25.006+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:14:25.019+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:14:25.035+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:14:25.035+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:14:25.050+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:14:25.050+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:10:00+00:00, run_after=2025-12-02 23:15:00+00:00
+[2025-12-02T23:14:25.064+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.062 seconds
+[2025-12-02T23:14:55.564+0000] {processor.py:161} INFO - Started process (PID=611) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:14:55.565+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:14:55.566+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:14:55.565+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:14:55.577+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:14:55.592+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:14:55.592+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:14:55.609+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:14:55.609+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:10:00+00:00, run_after=2025-12-02 23:15:00+00:00
+[2025-12-02T23:14:55.622+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.061 seconds
+[2025-12-02T23:15:26.283+0000] {processor.py:161} INFO - Started process (PID=706) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:15:26.284+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:15:26.284+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:15:26.284+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:15:26.295+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:15:26.310+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:15:26.309+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:15:26.325+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:15:26.325+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:15:00+00:00, run_after=2025-12-02 23:20:00+00:00
+[2025-12-02T23:15:26.336+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.055 seconds
+[2025-12-02T23:15:57.052+0000] {processor.py:161} INFO - Started process (PID=788) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:15:57.053+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:15:57.054+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:15:57.054+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:15:57.065+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:15:57.079+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:15:57.079+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:15:57.093+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:15:57.093+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:15:00+00:00, run_after=2025-12-02 23:20:00+00:00
+[2025-12-02T23:15:57.104+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.054 seconds
+[2025-12-02T23:16:27.553+0000] {processor.py:161} INFO - Started process (PID=870) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:16:27.554+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:16:27.555+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:16:27.555+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:16:27.567+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:16:27.582+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:16:27.582+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:16:27.601+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:16:27.601+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:15:00+00:00, run_after=2025-12-02 23:20:00+00:00
+[2025-12-02T23:16:27.612+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.062 seconds
+[2025-12-02T23:16:58.040+0000] {processor.py:161} INFO - Started process (PID=952) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:16:58.041+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:16:58.042+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:16:58.042+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:16:58.053+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:16:58.067+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:16:58.067+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:16:58.082+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:16:58.082+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:15:00+00:00, run_after=2025-12-02 23:20:00+00:00
+[2025-12-02T23:16:58.093+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.056 seconds
+[2025-12-02T23:17:28.828+0000] {processor.py:161} INFO - Started process (PID=1037) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:17:28.830+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:17:28.830+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:17:28.830+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:17:28.842+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:17:28.855+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:17:28.855+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:17:28.868+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:17:28.868+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:15:00+00:00, run_after=2025-12-02 23:20:00+00:00
+[2025-12-02T23:17:28.879+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.053 seconds
+[2025-12-02T23:18:00.541+0000] {processor.py:161} INFO - Started process (PID=1117) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:18:00.542+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:18:00.543+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:18:00.542+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:18:00.554+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:18:00.569+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:18:00.569+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:18:00.586+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:18:00.586+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:15:00+00:00, run_after=2025-12-02 23:20:00+00:00
+[2025-12-02T23:18:00.599+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.061 seconds
+[2025-12-02T23:18:33.397+0000] {processor.py:161} INFO - Started process (PID=1201) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:18:33.399+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:18:33.399+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:18:33.399+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:18:33.413+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:18:33.428+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:18:33.428+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:18:33.442+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:18:33.442+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:15:00+00:00, run_after=2025-12-02 23:20:00+00:00
+[2025-12-02T23:18:33.454+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.059 seconds
+[2025-12-02T23:19:06.157+0000] {processor.py:161} INFO - Started process (PID=1283) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:19:06.158+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:19:06.159+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:19:06.159+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:19:06.170+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:19:06.184+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:19:06.184+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:19:06.200+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:19:06.200+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:15:00+00:00, run_after=2025-12-02 23:20:00+00:00
+[2025-12-02T23:19:06.213+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.058 seconds
+[2025-12-02T23:19:38.907+0000] {processor.py:161} INFO - Started process (PID=1365) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:19:38.908+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:19:38.909+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:19:38.908+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:19:38.920+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:19:38.935+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:19:38.935+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:19:38.949+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:19:38.949+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:15:00+00:00, run_after=2025-12-02 23:20:00+00:00
+[2025-12-02T23:19:38.963+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.058 seconds
+[2025-12-02T23:20:11.658+0000] {processor.py:161} INFO - Started process (PID=1461) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:20:11.660+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:20:11.661+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:20:11.661+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:20:11.677+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:20:11.695+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:20:11.695+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:20:11.713+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:20:11.713+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:20:00+00:00, run_after=2025-12-02 23:25:00+00:00
+[2025-12-02T23:20:11.728+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.075 seconds
+[2025-12-02T23:20:44.530+0000] {processor.py:161} INFO - Started process (PID=1541) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:20:44.531+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:20:44.531+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:20:44.531+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:20:44.542+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:20:44.559+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:20:44.559+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:20:44.573+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:20:44.573+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:20:00+00:00, run_after=2025-12-02 23:25:00+00:00
+[2025-12-02T23:20:44.586+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.058 seconds
+[2025-12-02T23:21:17.298+0000] {processor.py:161} INFO - Started process (PID=1625) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:21:17.299+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:21:17.300+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:21:17.300+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:21:17.315+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:21:17.336+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:21:17.335+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:21:17.354+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:21:17.354+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:20:00+00:00, run_after=2025-12-02 23:25:00+00:00
+[2025-12-02T23:21:17.370+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.075 seconds
+[2025-12-02T23:21:50.242+0000] {processor.py:161} INFO - Started process (PID=1707) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:21:50.243+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:21:50.243+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:21:50.243+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:21:50.257+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:21:50.273+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:21:50.273+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:21:50.291+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:21:50.290+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:20:00+00:00, run_after=2025-12-02 23:25:00+00:00
+[2025-12-02T23:21:50.306+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.066 seconds
+[2025-12-02T23:22:23.041+0000] {processor.py:161} INFO - Started process (PID=1787) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:22:23.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:22:23.043+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:22:23.043+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:22:23.061+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:22:23.082+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:22:23.082+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:22:23.106+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:22:23.106+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:20:00+00:00, run_after=2025-12-02 23:25:00+00:00
+[2025-12-02T23:22:23.126+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.088 seconds
+[2025-12-02T23:22:55.948+0000] {processor.py:161} INFO - Started process (PID=1871) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:22:55.948+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:22:55.949+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:22:55.949+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:22:55.961+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:22:55.980+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:22:55.979+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:22:55.997+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:22:55.997+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:20:00+00:00, run_after=2025-12-02 23:25:00+00:00
+[2025-12-02T23:22:56.014+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.070 seconds
+[2025-12-02T23:23:28.709+0000] {processor.py:161} INFO - Started process (PID=1951) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:23:28.710+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:23:28.710+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:23:28.710+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:23:28.721+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:23:28.736+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:23:28.736+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:23:28.752+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:23:28.752+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:20:00+00:00, run_after=2025-12-02 23:25:00+00:00
+[2025-12-02T23:23:28.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.058 seconds
+[2025-12-02T23:24:01.426+0000] {processor.py:161} INFO - Started process (PID=2033) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:24:01.426+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:24:01.427+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:24:01.426+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:24:01.439+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:24:01.457+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:24:01.456+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:24:01.472+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:24:01.472+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:20:00+00:00, run_after=2025-12-02 23:25:00+00:00
+[2025-12-02T23:24:01.484+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.061 seconds
+[2025-12-02T23:24:33.358+0000] {processor.py:161} INFO - Started process (PID=2124) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:24:33.359+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:24:33.359+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:24:33.359+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:24:33.370+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:24:33.386+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:24:33.386+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:24:33.400+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:24:33.400+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:20:00+00:00, run_after=2025-12-02 23:25:00+00:00
+[2025-12-02T23:24:33.414+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.058 seconds
+[2025-12-02T23:25:06.183+0000] {processor.py:161} INFO - Started process (PID=2217) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:25:06.184+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:25:06.184+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:25:06.184+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:25:06.194+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:25:06.209+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:25:06.209+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:25:06.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.053 seconds
+[2025-12-02T23:25:38.899+0000] {processor.py:161} INFO - Started process (PID=2297) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:25:38.901+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:25:38.902+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:25:38.901+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:25:38.915+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:25:38.931+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:25:38.931+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:25:38.950+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:25:38.950+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:25:00+00:00, run_after=2025-12-02 23:30:00+00:00
+[2025-12-02T23:25:38.965+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.069 seconds
+[2025-12-02T23:26:11.671+0000] {processor.py:161} INFO - Started process (PID=2379) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:26:11.671+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:26:11.672+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:26:11.671+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:26:11.683+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:26:11.698+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:26:11.698+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:26:11.713+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:26:11.713+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:25:00+00:00, run_after=2025-12-02 23:30:00+00:00
+[2025-12-02T23:26:11.727+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.058 seconds
+[2025-12-02T23:26:44.300+0000] {processor.py:161} INFO - Started process (PID=2461) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:26:44.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:26:44.302+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:26:44.302+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:26:44.314+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:26:44.329+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:26:44.329+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:26:44.343+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:26:44.343+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:25:00+00:00, run_after=2025-12-02 23:30:00+00:00
+[2025-12-02T23:26:44.355+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.057 seconds
+[2025-12-02T23:27:17.081+0000] {processor.py:161} INFO - Started process (PID=2543) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:27:17.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:27:17.082+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:27:17.082+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:27:17.092+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:27:17.106+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:27:17.106+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:27:17.120+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:27:17.120+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:25:00+00:00, run_after=2025-12-02 23:30:00+00:00
+[2025-12-02T23:27:17.133+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.055 seconds
+[2025-12-02T23:27:49.826+0000] {processor.py:161} INFO - Started process (PID=2627) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:27:49.828+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:27:49.828+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:27:49.828+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:27:49.840+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:27:49.856+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:27:49.856+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:27:49.872+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:27:49.872+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:25:00+00:00, run_after=2025-12-02 23:30:00+00:00
+[2025-12-02T23:27:49.887+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.063 seconds
+[2025-12-02T23:28:22.498+0000] {processor.py:161} INFO - Started process (PID=2707) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:28:22.499+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:28:22.499+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:28:22.499+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:28:22.513+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:28:22.530+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:28:22.530+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:28:22.544+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:28:22.544+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:25:00+00:00, run_after=2025-12-02 23:30:00+00:00
+[2025-12-02T23:28:22.557+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.061 seconds
+[2025-12-02T23:28:55.126+0000] {processor.py:161} INFO - Started process (PID=2789) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:28:55.128+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:28:55.129+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:28:55.128+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:28:55.139+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:28:55.153+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:28:55.153+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:28:55.167+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:28:55.167+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:25:00+00:00, run_after=2025-12-02 23:30:00+00:00
+[2025-12-02T23:28:55.180+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.056 seconds
+[2025-12-02T23:29:28.789+0000] {processor.py:161} INFO - Started process (PID=2871) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:29:28.789+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:29:28.790+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:29:28.790+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:29:28.805+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:29:28.823+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:29:28.823+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:29:28.841+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:29:28.840+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:25:00+00:00, run_after=2025-12-02 23:30:00+00:00
+[2025-12-02T23:29:28.858+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.072 seconds
+[2025-12-02T23:30:00.640+0000] {processor.py:161} INFO - Started process (PID=2953) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:30:00.641+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:30:00.641+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:30:00.641+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:30:00.652+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:30:00.667+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:30:00.667+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:30:00.681+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:30:00.681+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:25:00+00:00, run_after=2025-12-02 23:30:00+00:00
+[2025-12-02T23:30:00.692+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.056 seconds
+[2025-12-02T23:30:33.409+0000] {processor.py:161} INFO - Started process (PID=3049) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:30:33.410+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:30:33.411+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:30:33.411+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:30:33.422+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:30:33.437+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:30:33.437+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:30:33.453+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:30:33.453+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:30:00+00:00, run_after=2025-12-02 23:35:00+00:00
+[2025-12-02T23:30:33.467+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.060 seconds
+[2025-12-02T23:31:06.099+0000] {processor.py:161} INFO - Started process (PID=3133) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:31:06.101+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:31:06.101+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:31:06.101+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:31:06.113+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:31:06.127+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:31:06.127+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:31:06.142+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:31:06.142+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:30:00+00:00, run_after=2025-12-02 23:35:00+00:00
+[2025-12-02T23:31:06.156+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.059 seconds
+[2025-12-02T23:31:38.757+0000] {processor.py:161} INFO - Started process (PID=3215) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:31:38.758+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:31:38.758+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:31:38.758+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:31:38.771+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:31:38.789+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:31:38.789+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:31:38.806+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:31:38.806+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:30:00+00:00, run_after=2025-12-02 23:35:00+00:00
+[2025-12-02T23:31:38.820+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.065 seconds
+[2025-12-02T23:32:12.406+0000] {processor.py:161} INFO - Started process (PID=3295) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:32:12.406+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:32:12.407+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:32:12.407+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:32:12.418+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:32:12.432+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:32:12.432+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:32:12.450+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:32:12.450+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:30:00+00:00, run_after=2025-12-02 23:35:00+00:00
+[2025-12-02T23:32:12.463+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.059 seconds
+[2025-12-02T23:33:29.699+0000] {processor.py:161} INFO - Started process (PID=196) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:33:29.701+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:33:29.702+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:33:29.701+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:33:29.722+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:33:29.740+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:33:29.740+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:33:29.775+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:33:29.775+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:30:00+00:00, run_after=2025-12-02 23:35:00+00:00
+[2025-12-02T23:33:29.807+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.111 seconds
+[2025-12-02T23:34:00.890+0000] {processor.py:161} INFO - Started process (PID=278) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:34:00.892+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:34:00.893+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:34:00.892+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:34:00.909+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:34:01.118+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:34:01.118+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:34:01.139+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:34:01.139+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:30:00+00:00, run_after=2025-12-02 23:35:00+00:00
+[2025-12-02T23:34:01.157+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.272 seconds
+[2025-12-02T23:34:31.907+0000] {processor.py:161} INFO - Started process (PID=362) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:34:31.908+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:34:31.909+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:34:31.908+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:34:31.921+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:34:31.938+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:34:31.938+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:34:32.049+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:34:32.049+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:30:00+00:00, run_after=2025-12-02 23:35:00+00:00
+[2025-12-02T23:34:32.061+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.157 seconds
+[2025-12-02T23:35:03.235+0000] {processor.py:161} INFO - Started process (PID=454) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:35:03.236+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:35:03.237+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:35:03.237+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:35:03.344+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:35:03.355+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:35:03.355+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:35:03.389+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.156 seconds
+[2025-12-02T23:35:33.661+0000] {processor.py:161} INFO - Started process (PID=536) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:35:33.663+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:35:33.664+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:35:33.663+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:35:33.677+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:35:33.694+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:35:33.693+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:35:33.710+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:35:33.709+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:35:00+00:00, run_after=2025-12-02 23:40:00+00:00
+[2025-12-02T23:35:33.725+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.067 seconds
+[2025-12-02T23:36:04.283+0000] {processor.py:161} INFO - Started process (PID=618) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:36:04.284+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:36:04.285+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:36:04.285+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:36:04.295+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:36:04.312+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:36:04.312+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:36:04.342+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:36:04.342+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:35:00+00:00, run_after=2025-12-02 23:40:00+00:00
+[2025-12-02T23:36:04.368+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.087 seconds
+[2025-12-02T23:36:34.932+0000] {processor.py:161} INFO - Started process (PID=706) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:36:34.933+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:36:34.934+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:36:34.933+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:36:34.945+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:36:34.958+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:36:34.958+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:36:34.972+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:36:34.972+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:35:00+00:00, run_after=2025-12-02 23:40:00+00:00
+[2025-12-02T23:36:34.983+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.053 seconds
+[2025-12-02T23:37:06.595+0000] {processor.py:161} INFO - Started process (PID=786) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:37:06.596+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:37:06.597+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:37:06.597+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:37:06.609+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:37:06.624+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:37:06.624+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:37:06.638+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:37:06.638+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:35:00+00:00, run_after=2025-12-02 23:40:00+00:00
+[2025-12-02T23:37:06.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.059 seconds
+[2025-12-02T23:37:39.268+0000] {processor.py:161} INFO - Started process (PID=868) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:37:39.269+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:37:39.269+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:37:39.269+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:37:39.282+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:37:39.297+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:37:39.297+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:37:39.312+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:37:39.312+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:35:00+00:00, run_after=2025-12-02 23:40:00+00:00
+[2025-12-02T23:37:39.323+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.057 seconds
+[2025-12-02T23:38:12.104+0000] {processor.py:161} INFO - Started process (PID=952) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:38:12.105+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:38:12.106+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:38:12.106+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:38:12.116+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:38:12.132+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:38:12.132+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:38:12.147+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:38:12.147+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:35:00+00:00, run_after=2025-12-02 23:40:00+00:00
+[2025-12-02T23:38:12.160+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.059 seconds
+[2025-12-02T23:38:44.844+0000] {processor.py:161} INFO - Started process (PID=1034) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:38:44.845+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:38:44.845+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:38:44.845+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:38:44.856+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:38:44.874+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:38:44.874+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:38:44.893+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:38:44.893+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:35:00+00:00, run_after=2025-12-02 23:40:00+00:00
+[2025-12-02T23:38:44.910+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.068 seconds
+[2025-12-02T23:39:17.561+0000] {processor.py:161} INFO - Started process (PID=1116) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:39:17.562+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:39:17.562+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:39:17.562+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:39:17.574+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:39:17.589+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:39:17.588+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:39:17.603+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:39:17.603+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:35:00+00:00, run_after=2025-12-02 23:40:00+00:00
+[2025-12-02T23:39:17.616+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.057 seconds
+[2025-12-02T23:39:50.263+0000] {processor.py:161} INFO - Started process (PID=1198) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:39:50.264+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:39:50.265+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:39:50.265+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:39:50.276+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:39:50.293+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:39:50.293+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:39:50.308+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:39:50.308+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:35:00+00:00, run_after=2025-12-02 23:40:00+00:00
+[2025-12-02T23:39:50.321+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.061 seconds
+[2025-12-02T23:40:22.921+0000] {processor.py:161} INFO - Started process (PID=1292) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:40:22.922+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:40:22.922+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:40:22.922+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:40:22.936+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:40:22.952+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:40:22.952+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:40:22.971+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:40:22.971+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:40:00+00:00, run_after=2025-12-02 23:45:00+00:00
+[2025-12-02T23:40:22.984+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.065 seconds
+[2025-12-02T23:40:55.848+0000] {processor.py:161} INFO - Started process (PID=1376) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:40:55.849+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:40:55.850+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:40:55.849+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:40:55.869+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:40:55.890+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:40:55.890+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:40:55.912+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:40:55.912+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:40:00+00:00, run_after=2025-12-02 23:45:00+00:00
+[2025-12-02T23:40:55.932+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.087 seconds
+[2025-12-02T23:41:28.867+0000] {processor.py:161} INFO - Started process (PID=1458) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:41:28.867+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:41:28.868+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:41:28.868+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:41:28.882+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:41:28.907+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:41:28.907+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:41:28.934+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:41:28.934+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:40:00+00:00, run_after=2025-12-02 23:45:00+00:00
+[2025-12-02T23:41:28.960+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.095 seconds
+[2025-12-02T23:42:00.659+0000] {processor.py:161} INFO - Started process (PID=1538) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:42:00.660+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:42:00.660+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:42:00.660+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:42:00.672+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:42:00.687+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:42:00.687+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:42:00.703+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:42:00.702+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:40:00+00:00, run_after=2025-12-02 23:45:00+00:00
+[2025-12-02T23:42:00.716+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.059 seconds
+[2025-12-02T23:42:33.582+0000] {processor.py:161} INFO - Started process (PID=1622) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:42:33.583+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:42:33.584+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:42:33.584+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:42:33.597+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:42:33.615+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:42:33.615+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:42:33.634+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:42:33.634+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:40:00+00:00, run_after=2025-12-02 23:45:00+00:00
+[2025-12-02T23:42:33.648+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.068 seconds
+[2025-12-02T23:43:06.398+0000] {processor.py:161} INFO - Started process (PID=1702) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:43:06.399+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:43:06.400+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:43:06.400+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:43:06.413+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:43:06.429+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:43:06.429+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:43:06.444+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:43:06.444+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:40:00+00:00, run_after=2025-12-02 23:45:00+00:00
+[2025-12-02T23:43:06.457+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.061 seconds
+[2025-12-02T23:43:39.300+0000] {processor.py:161} INFO - Started process (PID=1791) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:43:39.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:43:39.302+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:43:39.302+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:43:39.325+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:43:39.350+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:43:39.349+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:43:39.374+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:43:39.374+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:40:00+00:00, run_after=2025-12-02 23:45:00+00:00
+[2025-12-02T23:43:39.392+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.095 seconds
+[2025-12-02T23:44:12.173+0000] {processor.py:161} INFO - Started process (PID=1873) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:44:12.175+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:44:12.176+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:44:12.176+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:44:12.191+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:44:12.211+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:44:12.211+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:44:12.229+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:44:12.229+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:40:00+00:00, run_after=2025-12-02 23:45:00+00:00
+[2025-12-02T23:44:12.246+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.075 seconds
+[2025-12-02T23:44:44.873+0000] {processor.py:161} INFO - Started process (PID=1955) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:44:44.873+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:44:44.874+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:44:44.874+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:44:44.886+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:44:44.902+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:44:44.902+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:44:44.918+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:44:44.917+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:40:00+00:00, run_after=2025-12-02 23:45:00+00:00
+[2025-12-02T23:44:44.931+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.060 seconds
+[2025-12-02T23:45:17.495+0000] {processor.py:161} INFO - Started process (PID=2047) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:45:17.496+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:45:17.497+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:45:17.497+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:45:17.508+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:45:17.523+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:45:17.522+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:45:17.538+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:45:17.538+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:45:00+00:00, run_after=2025-12-02 23:50:00+00:00
+[2025-12-02T23:45:17.551+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.058 seconds
+[2025-12-02T23:45:50.257+0000] {processor.py:161} INFO - Started process (PID=2131) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:45:50.258+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:45:50.258+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:45:50.258+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:45:50.274+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:45:50.294+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:45:50.294+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:45:50.309+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:45:50.309+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:45:00+00:00, run_after=2025-12-02 23:50:00+00:00
+[2025-12-02T23:45:50.324+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.069 seconds
+[2025-12-02T23:46:23.038+0000] {processor.py:161} INFO - Started process (PID=2211) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:46:23.040+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:46:23.041+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:46:23.041+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:46:23.056+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:46:23.074+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:46:23.073+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:46:23.092+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:46:23.092+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:45:00+00:00, run_after=2025-12-02 23:50:00+00:00
+[2025-12-02T23:46:23.111+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.075 seconds
+[2025-12-02T23:46:55.747+0000] {processor.py:161} INFO - Started process (PID=2293) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:46:55.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:46:55.749+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:46:55.748+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:46:55.762+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:46:55.777+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:46:55.777+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:46:55.796+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:46:55.796+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:45:00+00:00, run_after=2025-12-02 23:50:00+00:00
+[2025-12-02T23:46:55.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.066 seconds
+[2025-12-02T23:47:28.381+0000] {processor.py:161} INFO - Started process (PID=2377) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:47:28.382+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:47:28.383+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:47:28.383+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:47:28.393+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:47:28.407+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:47:28.407+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:47:28.421+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:47:28.421+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:45:00+00:00, run_after=2025-12-02 23:50:00+00:00
+[2025-12-02T23:47:28.432+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.054 seconds
+[2025-12-02T23:48:01.020+0000] {processor.py:161} INFO - Started process (PID=2459) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:48:01.021+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:48:01.021+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:48:01.021+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:48:01.031+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:48:01.048+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:48:01.047+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:48:01.062+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:48:01.061+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:45:00+00:00, run_after=2025-12-02 23:50:00+00:00
+[2025-12-02T23:48:01.074+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.056 seconds
+[2025-12-02T23:48:33.742+0000] {processor.py:161} INFO - Started process (PID=2539) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:48:33.743+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:48:33.743+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:48:33.743+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:48:33.753+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:48:33.768+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:48:33.768+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:48:33.783+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:48:33.782+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:45:00+00:00, run_after=2025-12-02 23:50:00+00:00
+[2025-12-02T23:48:33.794+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.055 seconds
+[2025-12-02T23:49:06.465+0000] {processor.py:161} INFO - Started process (PID=2627) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:49:06.466+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:49:06.466+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:49:06.466+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:49:06.477+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:49:06.491+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:49:06.490+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:49:06.506+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:49:06.505+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:45:00+00:00, run_after=2025-12-02 23:50:00+00:00
+[2025-12-02T23:49:06.517+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.054 seconds
+[2025-12-02T23:49:39.151+0000] {processor.py:161} INFO - Started process (PID=2711) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:49:39.153+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:49:39.153+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:49:39.153+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:49:39.164+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:49:39.178+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:49:39.178+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:49:39.192+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:49:39.192+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:45:00+00:00, run_after=2025-12-02 23:50:00+00:00
+[2025-12-02T23:49:39.204+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.055 seconds
+[2025-12-02T23:50:11.907+0000] {processor.py:161} INFO - Started process (PID=2805) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:50:11.907+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:50:11.908+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:50:11.907+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:50:11.919+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:50:11.935+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:50:11.935+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:50:11.950+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:50:11.950+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:50:00+00:00, run_after=2025-12-02 23:55:00+00:00
+[2025-12-02T23:50:11.962+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.058 seconds
+[2025-12-02T23:50:44.668+0000] {processor.py:161} INFO - Started process (PID=2889) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:50:44.669+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:50:44.670+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:50:44.670+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:50:44.682+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:50:44.697+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:50:44.697+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:50:44.713+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:50:44.712+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:50:00+00:00, run_after=2025-12-02 23:55:00+00:00
+[2025-12-02T23:50:44.725+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.060 seconds
+[2025-12-02T23:51:17.511+0000] {processor.py:161} INFO - Started process (PID=2969) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:51:17.512+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:51:17.513+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:51:17.512+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:51:17.529+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:51:17.552+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:51:17.552+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:51:17.577+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:51:17.577+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:50:00+00:00, run_after=2025-12-02 23:55:00+00:00
+[2025-12-02T23:51:17.597+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.089 seconds
+[2025-12-02T23:51:50.562+0000] {processor.py:161} INFO - Started process (PID=3051) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:51:50.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:51:50.565+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:51:50.564+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:51:50.575+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:51:50.591+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:51:50.591+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:51:50.607+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:51:50.607+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:50:00+00:00, run_after=2025-12-02 23:55:00+00:00
+[2025-12-02T23:51:50.621+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.061 seconds
+[2025-12-02T23:52:23.191+0000] {processor.py:161} INFO - Started process (PID=3135) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:52:23.192+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:52:23.192+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:52:23.192+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:52:23.203+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:52:23.217+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:52:23.217+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:52:23.232+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:52:23.232+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:50:00+00:00, run_after=2025-12-02 23:55:00+00:00
+[2025-12-02T23:52:23.247+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.058 seconds
+[2025-12-02T23:52:55.824+0000] {processor.py:161} INFO - Started process (PID=3215) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:52:55.825+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:52:55.826+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:52:55.826+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:52:55.843+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:52:55.864+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:52:55.864+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:52:55.889+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:52:55.888+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:50:00+00:00, run_after=2025-12-02 23:55:00+00:00
+[2025-12-02T23:52:55.908+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.086 seconds
+[2025-12-02T23:53:28.511+0000] {processor.py:161} INFO - Started process (PID=3297) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:53:28.512+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:53:28.512+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:53:28.512+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:53:28.523+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:53:28.537+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:53:28.537+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:53:28.553+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:53:28.553+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:50:00+00:00, run_after=2025-12-02 23:55:00+00:00
+[2025-12-02T23:53:28.565+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.056 seconds
+[2025-12-02T23:54:01.381+0000] {processor.py:161} INFO - Started process (PID=3381) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:54:01.383+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:54:01.383+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:54:01.383+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:54:01.400+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:54:01.422+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:54:01.422+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:54:01.447+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:54:01.447+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:50:00+00:00, run_after=2025-12-02 23:55:00+00:00
+[2025-12-02T23:54:01.467+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.089 seconds
+[2025-12-02T23:56:22.918+0000] {processor.py:161} INFO - Started process (PID=201) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:56:22.919+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:56:22.921+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:56:22.920+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:56:22.953+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:56:22.973+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:56:22.973+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:56:23.123+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.208 seconds
+[2025-12-02T23:56:54.753+0000] {processor.py:161} INFO - Started process (PID=290) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:56:54.755+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:56:54.757+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:56:54.756+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:56:54.772+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:56:54.983+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:56:54.983+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:56:55.004+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:56:55.004+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:55:00+00:00, run_after=2025-12-03 00:00:00+00:00
+[2025-12-02T23:56:55.022+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.272 seconds
+[2025-12-02T23:57:27.527+0000] {processor.py:161} INFO - Started process (PID=370) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:57:27.528+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:57:27.529+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:57:27.529+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:57:27.647+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:57:27.662+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:57:27.662+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:57:27.676+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:57:27.676+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:55:00+00:00, run_after=2025-12-03 00:00:00+00:00
+[2025-12-02T23:57:27.693+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.168 seconds
+[2025-12-02T23:57:57.928+0000] {processor.py:161} INFO - Started process (PID=452) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:57:57.929+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:57:57.930+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:57:57.930+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:57:57.943+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:57:57.966+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:57:57.966+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:57:57.988+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:57:57.988+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:55:00+00:00, run_after=2025-12-03 00:00:00+00:00
+[2025-12-02T23:57:58.007+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.082 seconds
+[2025-12-02T23:59:01.670+0000] {processor.py:161} INFO - Started process (PID=572) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:59:01.674+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:59:01.677+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:59:01.675+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:59:01.731+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:59:01.822+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:59:01.821+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:59:01.923+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.260 seconds
+[2025-12-02T23:59:33.859+0000] {processor.py:161} INFO - Started process (PID=684) to work on /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:59:33.860+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_dim_produto.py for tasks to queue
+[2025-12-02T23:59:33.861+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:59:33.861+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:59:33.874+0000] {processor.py:840} INFO - DAG(s) 'carga_dim_produto' retrieved from /opt/airflow/dags/carga_dim_produto.py
+[2025-12-02T23:59:33.896+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:59:33.896+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-12-02T23:59:33.918+0000] {logging_mixin.py:188} INFO - [2025-12-02T23:59:33.918+0000] {dag.py:3834} INFO - Setting next_dagrun for carga_dim_produto to 2025-12-02 23:55:00+00:00, run_after=2025-12-03 00:00:00+00:00
+[2025-12-02T23:59:33.933+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_dim_produto.py took 0.077 seconds

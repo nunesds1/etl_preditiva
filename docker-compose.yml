@@ -1,0 +1,148 @@
+x-airflow-common: &airflow-common
+  build:
+    context: ./airflow
+    dockerfile: Dockerfile.airflow
+  image: apache/airflow:2.8.2-python3.11
+  env_file:
+    - .env
+  environment:
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+    AIRFLOW__API__AUTH_BACKEND: "airflow.api.auth.backend.basic_auth"
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
+    POSTGRES_DATADT_HOST: ${POSTGRES_DATADT_HOST}
+    POSTGRES_DATADT_PORT: ${POSTGRES_DATADT_PORT}
+    POSTGRES_DATADT_DB: ${POSTGRES_DATADT_DB}
+    POSTGRES_DATADT_USER: ${POSTGRES_DATADT_USER}
+    POSTGRES_DATADT_PASSWORD: ${POSTGRES_DATADT_PASSWORD}
+  volumes:
+    - ./airflow/dags:/opt/airflow/dags
+    - ./airflow/logs:/opt/airflow/logs
+    - ./airflow/plugins:/opt/airflow/plugins
+    - ./airflow/scripts:/opt/airflow/scripts
+  user: "50000:0"
+  depends_on:
+    - postgres
+
+services:
+
+  # ---------------------
+  #       AIRFLOW
+  # ---------------------
+  airflow-webserver:
+    <<: *airflow-common
+    container_name: airflow_webserver
+    command: >
+      bash -c "
+      airflow db migrate &&
+      /opt/airflow/scripts/create_admin.sh &&
+      exec airflow webserver
+      "
+    ports:
+      - "8080:8080"
+    networks:
+      - etl_net
+
+  airflow-scheduler:
+    <<: *airflow-common
+    container_name: airflow_scheduler
+    command: scheduler
+    restart: always
+    networks:
+      - etl_net
+
+  postgres:
+    image: postgres:13
+    container_name: airflow_postgres
+    restart: always
+    env_file:
+      - .env
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    volumes:
+      - ./postgres:/var/lib/postgresql/data
+    networks:
+      - etl_net
+
+  # ---------------------
+  #        SQL SERVER
+  # ---------------------
+  sqlserver:
+    build: ./sqlserver
+    container_name: etl_sqlserver
+    env_file:
+      - .env
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "${MSSQL_SA_PASSWORD}"
+    ports:
+      - "1433:1433"
+    volumes:
+      - ./sqlserver/mssql_backups:/var/opt/mssql/backup
+      - ./sqlserver/mssql_init:/mssql_init:rw
+    entrypoint: ["/bin/bash", "/mssql_init/entrypoint.sh"]
+    networks:
+      - etl_net
+
+
+  # ---------------------
+  #        ETL APP
+  # ---------------------
+  etl_app:
+    build:
+      context: .
+    container_name: etl_app
+    env_file:
+      - .env
+    volumes:
+      - ./src:/app/src
+      - ./models:/app/models
+      - ./logs:/app/logs
+    command: ["bash", "-c", "tail -f /dev/null"]
+    networks:
+      - etl_net
+
+  # ---------------------
+  #        HADOOP
+  # ---------------------
+  hadoop-namenode:
+    build:
+      context: ./hadoop
+    container_name: hadoop-namenode
+    hostname: namenode
+    restart: always
+    environment:
+      - HADOOP_ROLE=namenode
+    ports:
+      - "9870:9870"
+      - "9000:9000"
+      - "8088:8088"
+    volumes:
+      - ./hadoop/config:/opt/hadoop/etc/hadoop
+      - ./hadoop/namenode/data:/opt/hadoop/data
+      - ./hadoop/namenode/logs:/opt/hadoop/logs
+    networks:
+      - etl_net
+
+  hadoop-datanode:
+    build:
+      context: ./hadoop
+    container_name: hadoop-datanode
+    hostname: datanode
+    restart: always
+    environment:
+      - HADOOP_ROLE=datanode
+    ports:
+      - "9864:9864"
+    volumes:
+      - ./hadoop/config:/opt/hadoop/etc/hadoop
+      - ./hadoop/datanode/data:/opt/hadoop/data
+      - ./hadoop/datanode/logs:/opt/hadoop/logs
+    networks:
+      - etl_net
+
+networks:
+  etl_net:
+    driver: bridge

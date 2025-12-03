@@ -1,0 +1,18 @@
+[2025-12-02T23:10:01.275+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: carga_dim_notafiscal.load_dim_nota_fiscal scheduled__2025-12-02T23:05:00+00:00 [queued]>
+[2025-12-02T23:10:01.289+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: carga_dim_notafiscal.load_dim_nota_fiscal scheduled__2025-12-02T23:05:00+00:00 [queued]>
+[2025-12-02T23:10:01.289+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 3
+[2025-12-02T23:10:01.330+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): load_dim_nota_fiscal> on 2025-12-02 23:05:00+00:00
+[2025-12-02T23:10:01.351+0000] {standard_task_runner.py:60} INFO - Started process 2595 to run task
+[2025-12-02T23:10:01.371+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'carga_dim_notafiscal', 'load_dim_nota_fiscal', 'scheduled__2025-12-02T23:05:00+00:00', '--job-id', '392', '--raw', '--subdir', 'DAGS_FOLDER/carga_dim_nota_fiscal.py', '--cfg-path', '/tmp/tmpjfn_o6z4']
+[2025-12-02T23:10:01.379+0000] {standard_task_runner.py:88} INFO - Job 392: Subtask load_dim_nota_fiscal
+[2025-12-02T23:10:02.119+0000] {task_command.py:423} INFO - Running <TaskInstance: carga_dim_notafiscal.load_dim_nota_fiscal scheduled__2025-12-02T23:05:00+00:00 [running]> on host 0ec15cef88e3
+[2025-12-02T23:10:02.176+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='etl' AIRFLOW_CTX_DAG_ID='carga_dim_notafiscal' AIRFLOW_CTX_TASK_ID='load_dim_nota_fiscal' AIRFLOW_CTX_EXECUTION_DATE='2025-12-02T23:05:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-12-02T23:05:00+00:00'
+[2025-12-02T23:10:02.177+0000] {logging_mixin.py:188} INFO - 
+=== Iniciando carga da DimNotaFiscal ===
+[2025-12-02T23:10:03.214+0000] {logging_mixin.py:188} INFO - Último NotaFiscalID carregado: 120953
+[2025-12-02T23:10:03.590+0000] {logging_mixin.py:188} INFO - Encontrados 0 novos registros de Nota Fiscal.
+[2025-12-02T23:10:03.591+0000] {logging_mixin.py:188} INFO - DimNotaFiscal - 0 registros inseridos com sucesso.
+[2025-12-02T23:10:03.591+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-12-02T23:10:03.609+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=carga_dim_notafiscal, task_id=load_dim_nota_fiscal, execution_date=20251202T230500, start_date=20251202T231001, end_date=20251202T231003
+[2025-12-02T23:10:03.664+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-12-02T23:10:03.865+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

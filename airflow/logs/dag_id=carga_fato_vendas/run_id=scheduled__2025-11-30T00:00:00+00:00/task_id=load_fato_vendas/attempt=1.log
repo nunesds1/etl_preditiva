@@ -1,0 +1,22 @@
+[2025-12-01T02:47:07.905+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: carga_fato_vendas.load_fato_vendas scheduled__2025-11-30T00:00:00+00:00 [queued]>
+[2025-12-01T02:47:07.910+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: carga_fato_vendas.load_fato_vendas scheduled__2025-11-30T00:00:00+00:00 [queued]>
+[2025-12-01T02:47:07.910+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 3
+[2025-12-01T02:47:07.919+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): load_fato_vendas> on 2025-11-30 00:00:00+00:00
+[2025-12-01T02:47:07.922+0000] {standard_task_runner.py:60} INFO - Started process 513 to run task
+[2025-12-01T02:47:07.925+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'carga_fato_vendas', 'load_fato_vendas', 'scheduled__2025-11-30T00:00:00+00:00', '--job-id', '199', '--raw', '--subdir', 'DAGS_FOLDER/carga_fato_vendas.py', '--cfg-path', '/tmp/tmp0_172j5b']
+[2025-12-01T02:47:07.926+0000] {standard_task_runner.py:88} INFO - Job 199: Subtask load_fato_vendas
+[2025-12-01T02:47:08.087+0000] {task_command.py:423} INFO - Running <TaskInstance: carga_fato_vendas.load_fato_vendas scheduled__2025-11-30T00:00:00+00:00 [running]> on host 1439f57e621d
+[2025-12-01T02:47:08.182+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='etl' AIRFLOW_CTX_DAG_ID='carga_fato_vendas' AIRFLOW_CTX_TASK_ID='load_fato_vendas' AIRFLOW_CTX_EXECUTION_DATE='2025-11-30T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-30T00:00:00+00:00'
+[2025-12-01T02:47:08.182+0000] {logging_mixin.py:188} INFO - 
+=== Iniciando carga da FatoVendas ===
+[2025-12-01T02:47:09.394+0000] {logging_mixin.py:188} INFO - Último VendasKey carregado: 321720
+[2025-12-01T02:47:10.328+0000] {logging_mixin.py:188} INFO - Encontrados 984 novos registros para carga.
+[2025-12-01T02:47:13.558+0000] {logging_mixin.py:188} INFO - [WARN] ClienteID 2275 não encontrado. Pulando.
+[2025-12-01T02:47:13.563+0000] {logging_mixin.py:188} INFO - [WARN] ClienteID 2275 não encontrado. Pulando.
+[2025-12-01T02:47:13.566+0000] {logging_mixin.py:188} INFO - [WARN] ClienteID 2275 não encontrado. Pulando.
+[2025-12-01T02:47:13.569+0000] {logging_mixin.py:188} INFO - [WARN] ClienteID 2275 não encontrado. Pulando.
+[2025-12-01T02:47:16.248+0000] {logging_mixin.py:188} INFO - FatoVendas - 980 registros inseridos com sucesso.
+[2025-12-01T02:47:16.253+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-12-01T02:47:16.294+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=carga_fato_vendas, task_id=load_fato_vendas, execution_date=20251130T000000, start_date=20251201T024707, end_date=20251201T024716
+[2025-12-01T02:47:16.365+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-12-01T02:47:16.391+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

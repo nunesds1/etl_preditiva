@@ -1,0 +1,18 @@
+[2025-12-03T00:55:26.075+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: carga_fato_pagamentos.load_fato_pagamentos manual__2025-12-03T00:55:25.526794+00:00 [queued]>
+[2025-12-03T00:55:26.082+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: carga_fato_pagamentos.load_fato_pagamentos manual__2025-12-03T00:55:25.526794+00:00 [queued]>
+[2025-12-03T00:55:26.082+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 3
+[2025-12-03T00:55:26.091+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): load_fato_pagamentos> on 2025-12-03 00:55:25.526794+00:00
+[2025-12-03T00:55:26.095+0000] {standard_task_runner.py:60} INFO - Started process 1115 to run task
+[2025-12-03T00:55:26.097+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'carga_fato_pagamentos', 'load_fato_pagamentos', 'manual__2025-12-03T00:55:25.526794+00:00', '--job-id', '547', '--raw', '--subdir', 'DAGS_FOLDER/carga_fato_pagamentos.py', '--cfg-path', '/tmp/tmpa6k7i_bx']
+[2025-12-03T00:55:26.099+0000] {standard_task_runner.py:88} INFO - Job 547: Subtask load_fato_pagamentos
+[2025-12-03T00:55:26.243+0000] {task_command.py:423} INFO - Running <TaskInstance: carga_fato_pagamentos.load_fato_pagamentos manual__2025-12-03T00:55:25.526794+00:00 [running]> on host 08128b82813d
+[2025-12-03T00:55:26.294+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='etl' AIRFLOW_CTX_DAG_ID='carga_fato_pagamentos' AIRFLOW_CTX_TASK_ID='load_fato_pagamentos' AIRFLOW_CTX_EXECUTION_DATE='2025-12-03T00:55:25.526794+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-03T00:55:25.526794+00:00'
+[2025-12-03T00:55:26.295+0000] {logging_mixin.py:188} INFO - 
+=== Iniciando carga da FatoPagamentos ===
+[2025-12-03T00:55:27.282+0000] {logging_mixin.py:188} INFO - Último PagamentoID carregado: 3689
+[2025-12-03T00:55:27.602+0000] {logging_mixin.py:188} INFO - Encontrados 7 novos pagamentos.
+[2025-12-03T00:55:27.623+0000] {logging_mixin.py:188} INFO - FatoPagamentos - 7 registros inseridos com sucesso.
+[2025-12-03T00:55:27.624+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-12-03T00:55:27.628+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=carga_fato_pagamentos, task_id=load_fato_pagamentos, execution_date=20251203T005525, start_date=20251203T005526, end_date=20251203T005527
+[2025-12-03T00:55:27.675+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-12-03T00:55:27.789+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

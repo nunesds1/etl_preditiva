@@ -1,0 +1,29 @@
+[2025-12-01T03:44:25.239+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_analytics_master.upload_parquet_hdfs manual__2025-12-01T02:57:41.128707+00:00 [queued]>
+[2025-12-01T03:44:25.274+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_analytics_master.upload_parquet_hdfs manual__2025-12-01T02:57:41.128707+00:00 [queued]>
+[2025-12-01T03:44:25.275+0000] {taskinstance.py:2193} INFO - Starting attempt 2 of 2
+[2025-12-01T03:44:25.332+0000] {taskinstance.py:2214} INFO - Executing <Task(TriggerDagRunOperator): upload_parquet_hdfs> on 2025-12-01 02:57:41.128707+00:00
+[2025-12-01T03:44:25.353+0000] {standard_task_runner.py:60} INFO - Started process 225 to run task
+[2025-12-01T03:44:25.369+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pipeline_analytics_master', 'upload_parquet_hdfs', 'manual__2025-12-01T02:57:41.128707+00:00', '--job-id', '298', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_analytics_master.py', '--cfg-path', '/tmp/tmppsfc2cje']
+[2025-12-01T03:44:25.375+0000] {standard_task_runner.py:88} INFO - Job 298: Subtask upload_parquet_hdfs
+[2025-12-01T03:44:25.716+0000] {task_command.py:423} INFO - Running <TaskInstance: pipeline_analytics_master.upload_parquet_hdfs manual__2025-12-01T02:57:41.128707+00:00 [running]> on host f3f25a845775
+[2025-12-01T03:44:28.528+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='etl' AIRFLOW_CTX_DAG_ID='pipeline_analytics_master' AIRFLOW_CTX_TASK_ID='upload_parquet_hdfs' AIRFLOW_CTX_EXECUTION_DATE='2025-12-01T02:57:41.128707+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-01T02:57:41.128707+00:00'
+[2025-12-01T03:44:28.659+0000] {trigger_dagrun.py:210} INFO - Waiting for upload_slices_hdfs on 2025-12-01 03:44:28.529594+00:00 to become allowed state ['success'] ...
+[2025-12-01T03:45:28.742+0000] {trigger_dagrun.py:210} INFO - Waiting for upload_slices_hdfs on 2025-12-01 03:44:28.529594+00:00 to become allowed state ['success'] ...
+[2025-12-01T03:46:28.792+0000] {trigger_dagrun.py:210} INFO - Waiting for upload_slices_hdfs on 2025-12-01 03:44:28.529594+00:00 to become allowed state ['success'] ...
+[2025-12-01T03:47:28.821+0000] {trigger_dagrun.py:210} INFO - Waiting for upload_slices_hdfs on 2025-12-01 03:44:28.529594+00:00 to become allowed state ['success'] ...
+[2025-12-01T03:48:28.863+0000] {trigger_dagrun.py:210} INFO - Waiting for upload_slices_hdfs on 2025-12-01 03:44:28.529594+00:00 to become allowed state ['success'] ...
+[2025-12-01T03:49:28.910+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/trigger_dagrun.py", line 221, in execute
+    raise AirflowException(f"{self.trigger_dag_id} failed with failed states {state}")
+airflow.exceptions.AirflowException: upload_slices_hdfs failed with failed states failed
+[2025-12-01T03:49:28.914+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=pipeline_analytics_master, task_id=upload_parquet_hdfs, execution_date=20251201T025741, start_date=20251201T034425, end_date=20251201T034928
+[2025-12-01T03:49:28.924+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 298 for task upload_parquet_hdfs (upload_slices_hdfs failed with failed states failed; 225)
+[2025-12-01T03:49:28.964+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-12-01T03:49:28.985+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

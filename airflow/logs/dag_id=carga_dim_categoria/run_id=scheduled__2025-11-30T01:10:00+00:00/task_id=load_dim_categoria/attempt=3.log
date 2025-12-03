@@ -1,0 +1,60 @@
+[2025-11-30T01:34:06.870+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: carga_dim_categoria.load_dim_categoria scheduled__2025-11-30T01:10:00+00:00 [queued]>
+[2025-11-30T01:34:06.874+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: carga_dim_categoria.load_dim_categoria scheduled__2025-11-30T01:10:00+00:00 [queued]>
+[2025-11-30T01:34:06.874+0000] {taskinstance.py:2193} INFO - Starting attempt 3 of 3
+[2025-11-30T01:34:06.882+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): load_dim_categoria> on 2025-11-30 01:10:00+00:00
+[2025-11-30T01:34:06.884+0000] {standard_task_runner.py:60} INFO - Started process 1539 to run task
+[2025-11-30T01:34:06.886+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'carga_dim_categoria', 'load_dim_categoria', 'scheduled__2025-11-30T01:10:00+00:00', '--job-id', '45', '--raw', '--subdir', 'DAGS_FOLDER/carga_dim_categoria.py', '--cfg-path', '/tmp/tmpnxz6m9hu']
+[2025-11-30T01:34:06.888+0000] {standard_task_runner.py:88} INFO - Job 45: Subtask load_dim_categoria
+[2025-11-30T01:34:07.144+0000] {task_command.py:423} INFO - Running <TaskInstance: carga_dim_categoria.load_dim_categoria scheduled__2025-11-30T01:10:00+00:00 [running]> on host b3a84050caf5
+[2025-11-30T01:34:07.188+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='etl' AIRFLOW_CTX_DAG_ID='carga_dim_categoria' AIRFLOW_CTX_TASK_ID='load_dim_categoria' AIRFLOW_CTX_EXECUTION_DATE='2025-11-30T01:10:00+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-30T01:10:00+00:00'
+[2025-11-30T01:34:07.188+0000] {logging_mixin.py:188} INFO - 
+=== Iniciando carga da DimCategoria ===
+[2025-11-30T01:34:23.255+0000] {logging_mixin.py:188} INFO - [ERRO] Tentativa 1/5 ao conectar:
+[2025-11-30T01:34:23.256+0000] {logging_mixin.py:188} INFO - ('HYT00', '[HYT00] [Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired (0) (SQLDriverConnect)')
+[2025-11-30T01:34:23.256+0000] {logging_mixin.py:188} INFO - Novamente em 3s...
+[2025-11-30T01:34:44.600+0000] {logging_mixin.py:188} INFO - [ERRO] Tentativa 2/5 ao conectar:
+[2025-11-30T01:34:44.601+0000] {logging_mixin.py:188} INFO - ('HYT00', '[HYT00] [Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired (0) (SQLDriverConnect)')
+[2025-11-30T01:34:44.601+0000] {logging_mixin.py:188} INFO - Novamente em 3s...
+[2025-11-30T01:35:02.603+0000] {logging_mixin.py:188} INFO - [ERRO] Tentativa 3/5 ao conectar:
+[2025-11-30T01:35:02.603+0000] {logging_mixin.py:188} INFO - ('HYT00', '[HYT00] [Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired (0) (SQLDriverConnect)')
+[2025-11-30T01:35:02.603+0000] {logging_mixin.py:188} INFO - Novamente em 3s...
+[2025-11-30T01:35:23.922+0000] {logging_mixin.py:188} INFO - [ERRO] Tentativa 4/5 ao conectar:
+[2025-11-30T01:35:23.923+0000] {logging_mixin.py:188} INFO - ('HYT00', '[HYT00] [Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired (0) (SQLDriverConnect)')
+[2025-11-30T01:35:23.923+0000] {logging_mixin.py:188} INFO - Novamente em 3s...
+[2025-11-30T01:35:45.271+0000] {logging_mixin.py:188} INFO - [ERRO] Tentativa 5/5 ao conectar:
+[2025-11-30T01:35:45.271+0000] {logging_mixin.py:188} INFO - ('HYT00', '[HYT00] [Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired (0) (SQLDriverConnect)')
+[2025-11-30T01:35:45.271+0000] {logging_mixin.py:188} INFO - Falha após várias tentativas.
+[2025-11-30T01:35:45.271+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/carga_dim_categoria.py", line 35, in load_dim_categoria
+    sql_conn, sql_cur = get_sqlserver_cursor()
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/database.py", line 94, in get_sqlserver_cursor
+    conn = get_sqlserver_conn()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/database.py", line 47, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/database.py", line 82, in get_sqlserver_conn
+    return pyodbc.connect(conn_str)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+pyodbc.OperationalError: ('HYT00', '[HYT00] [Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired (0) (SQLDriverConnect)')
+[2025-11-30T01:35:45.277+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=carga_dim_categoria, task_id=load_dim_categoria, execution_date=20251130T011000, start_date=20251130T013406, end_date=20251130T013545
+[2025-11-30T01:35:45.284+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 45 for task load_dim_categoria (('HYT00', '[HYT00] [Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired (0) (SQLDriverConnect)'); 1539)
+[2025-11-30T01:35:45.323+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-11-30T01:35:45.332+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

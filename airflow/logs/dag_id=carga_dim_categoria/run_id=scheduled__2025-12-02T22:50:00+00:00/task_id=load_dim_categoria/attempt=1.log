@@ -1,0 +1,18 @@
+[2025-12-02T23:00:02.718+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: carga_dim_categoria.load_dim_categoria scheduled__2025-12-02T22:50:00+00:00 [queued]>
+[2025-12-02T23:00:02.728+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: carga_dim_categoria.load_dim_categoria scheduled__2025-12-02T22:50:00+00:00 [queued]>
+[2025-12-02T23:00:02.728+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 3
+[2025-12-02T23:00:02.740+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): load_dim_categoria> on 2025-12-02 22:50:00+00:00
+[2025-12-02T23:00:02.745+0000] {standard_task_runner.py:60} INFO - Started process 997 to run task
+[2025-12-02T23:00:02.748+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'carga_dim_categoria', 'load_dim_categoria', 'scheduled__2025-12-02T22:50:00+00:00', '--job-id', '378', '--raw', '--subdir', 'DAGS_FOLDER/carga_dim_categoria.py', '--cfg-path', '/tmp/tmp7cbp3rhr']
+[2025-12-02T23:00:02.751+0000] {standard_task_runner.py:88} INFO - Job 378: Subtask load_dim_categoria
+[2025-12-02T23:00:03.041+0000] {task_command.py:423} INFO - Running <TaskInstance: carga_dim_categoria.load_dim_categoria scheduled__2025-12-02T22:50:00+00:00 [running]> on host 0ec15cef88e3
+[2025-12-02T23:00:03.125+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='etl' AIRFLOW_CTX_DAG_ID='carga_dim_categoria' AIRFLOW_CTX_TASK_ID='load_dim_categoria' AIRFLOW_CTX_EXECUTION_DATE='2025-12-02T22:50:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-12-02T22:50:00+00:00'
+[2025-12-02T23:00:03.126+0000] {logging_mixin.py:188} INFO - 
+=== Iniciando carga da DimCategoria ===
+[2025-12-02T23:00:04.101+0000] {logging_mixin.py:188} INFO - Último CategoriaID carregado: 9
+[2025-12-02T23:00:04.414+0000] {logging_mixin.py:188} INFO - Novas categorias encontradas: 0
+[2025-12-02T23:00:04.415+0000] {logging_mixin.py:188} INFO - DimCategoria - 0 registros inseridos.
+[2025-12-02T23:00:04.416+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-12-02T23:00:04.428+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=carga_dim_categoria, task_id=load_dim_categoria, execution_date=20251202T225000, start_date=20251202T230002, end_date=20251202T230004
+[2025-12-02T23:00:04.488+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-12-02T23:00:04.684+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check
